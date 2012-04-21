@@ -1,0 +1,9 @@
+This starter package zip was published on Sun Nov 13 01:34:50 UTC 2011.
+
+Last change on this starter package was:
+commit 1e352183f36dc8200e340e66318e7aece19cb571
+Date:   Sat Nov 12 20:34:47 2011 -0500
+
+    Make the python3 starter use wall time not cpu time
+
+Check https://github.com/aichallenge/aichallenge/tree/epsilon/ants/dist/starter_bots/python3 for new versions.
