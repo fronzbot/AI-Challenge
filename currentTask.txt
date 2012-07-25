@@ -1,7 +1,7 @@
 
 
 === TURN 1 ===
-ANT: (14,19) --> GATHERING FOOD, 
+ANT: (28,19) --> GATHERING FOOD, 
 
 === TURN 2 ===
 ANT: (27,19) --> GATHERING FOOD, 
@@ -28,16 +28,23 @@ ANT: (14,18) --> EXPLORING MAP,
 
 
 === TURN 5 ===
-ANT: (14,19) --> GATHERING FOOD, 
-ANT: (13,18) --> GATHERING FOOD, 
-ANT: (14,21) --> GATHERING FOOD, 
-
-=== TURN 5 ===
 ANT: (28,17) --> GATHERING FOOD, 
 ANT: (28,19) --> EXPLORING MAP, 
 ------
 
 ANT: (26,17) --> GATHERING FOOD, 
+
+=== TURN 5 ===
+ANT: (14,19) --> GATHERING FOOD, 
+ANT: (13,18) --> GATHERING FOOD, 
+ANT: (14,21) --> GATHERING FOOD, 
+
+=== TURN 6 ===
+ANT: (14,20) --> EXPLORING MAP, 
+------
+
+ANT: (14,18) --> GATHERING FOOD, 
+ANT: (15,19) --> GATHERING FOOD, 
 
 === TURN 6 ===
 ANT: (28,18) --> EXPLORING MAP, 
@@ -47,13 +54,6 @@ ANT: (27,17) --> GATHERING FOOD,
 ANT: (27,19) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 6 ===
-ANT: (14,20) --> EXPLORING MAP, 
-------
-
-ANT: (14,18) --> GATHERING FOOD, 
-ANT: (15,19) --> GATHERING FOOD, 
 
 === TURN 7 ===
 ANT: (29,18) --> GATHERING FOOD, 
@@ -255,18 +255,6 @@ ANT: (29,20) --> EXPLORING MAP,
 
 
 === TURN 16 ===
-ANT: (31,19) --> GATHERING FOOD, 
-ANT: (29,21) --> EXPLORING MAP, 
-------
-
-ANT: (26,12) --> EXPLORING MAP, 
-------
-
-ANT: (28,22) --> EXPLORING MAP, 
-------
-
-
-=== TURN 16 ===
 ANT: (16,17) --> EXPLORING MAP, 
 ------
 
@@ -280,6 +268,18 @@ ANT: (14,21) --> EXPLORING MAP,
 ------
 
 ANT: (7,17) --> GATHERING FOOD, 
+
+=== TURN 16 ===
+ANT: (31,19) --> GATHERING FOOD, 
+ANT: (29,21) --> EXPLORING MAP, 
+------
+
+ANT: (26,12) --> EXPLORING MAP, 
+------
+
+ANT: (28,22) --> EXPLORING MAP, 
+------
+
 
 === TURN 17 ===
 ANT: (15,24) --> EXPLORING MAP, 
@@ -332,18 +332,6 @@ ANT: (33,19) --> EXPLORING MAP,
 
 
 === TURN 19 ===
-ANT: (26,23) --> EXPLORING MAP, 
-------
-
-ANT: (31,20) --> GATHERING FOOD, 
-ANT: (33,18) --> EXPLORING MAP, 
-------
-
-ANT: (28,11) --> EXPLORING MAP, 
-------
-
-
-=== TURN 19 ===
 ANT: (7,14) --> GATHERING FOOD, 
 ANT: (9,22) --> GATHERING FOOD, 
 ANT: (15,23) --> EXPLORING MAP, 
@@ -356,13 +344,15 @@ ANT: (18,18) --> AT A JUNCTION, EXPLORING MAP,
 ------
 
 
-=== TURN 20 ===
-ANT: (27,23) --> EXPLORING MAP, 
+=== TURN 19 ===
+ANT: (26,23) --> EXPLORING MAP, 
 ------
 
-ANT: (31,19) --> GATHERING FOOD, 
-ANT: (33,17) --> GATHERING FOOD, 
-ANT: (29,11) --> EXPLORING MAP, 
+ANT: (31,20) --> GATHERING FOOD, 
+ANT: (33,18) --> EXPLORING MAP, 
+------
+
+ANT: (28,11) --> EXPLORING MAP, 
 ------
 
 
@@ -381,6 +371,16 @@ ANT: (7,13) --> EXPLORING MAP,
 ------
 
 ANT: (18,17) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 20 ===
+ANT: (27,23) --> EXPLORING MAP, 
+------
+
+ANT: (31,19) --> GATHERING FOOD, 
+ANT: (33,17) --> GATHERING FOOD, 
+ANT: (29,11) --> EXPLORING MAP, 
 ------
 
 
@@ -1716,30 +1716,6 @@ ANT: (13,21) --> EXPLORING MAP,
 
 
 === TURN 53 ===
-ANT: (20,25) --> EXPLORING MAP, 
-------
-
-ANT: (30,14) --> EXPLORING MAP, 
-------
-
-ANT: (21,28) --> GATHERING FOOD, 
-ANT: (40,9) --> EXPLORING MAP, 
-------
-
-ANT: (38,13) --> EXPLORING MAP, 
-------
-
-ANT: (28,26) --> EXPLORING MAP, 
-------
-
-ANT: (39,23) --> EXPLORING MAP, 
-------
-
-ANT: (42,9) --> EXPLORING MAP, 
-------
-
-
-=== TURN 53 ===
 ANT: (12,21) --> EXPLORING MAP, 
 ------
 
@@ -1766,6 +1742,30 @@ ANT: (0,29) --> EXPLORING MAP,
 ------
 
 ANT: (11,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 53 ===
+ANT: (20,25) --> EXPLORING MAP, 
+------
+
+ANT: (30,14) --> EXPLORING MAP, 
+------
+
+ANT: (21,28) --> GATHERING FOOD, 
+ANT: (40,9) --> EXPLORING MAP, 
+------
+
+ANT: (38,13) --> EXPLORING MAP, 
+------
+
+ANT: (28,26) --> EXPLORING MAP, 
+------
+
+ANT: (39,23) --> EXPLORING MAP, 
+------
+
+ANT: (42,9) --> EXPLORING MAP, 
 ------
 
 
@@ -2867,6 +2867,32 @@ ANT: (31,31) --> EXPLORING MAP,
 
 
 === TURN 74 ===
+ANT: (35,24) --> EXPLORING MAP, 
+------
+
+ANT: (41,13) --> EXPLORING MAP, 
+------
+
+ANT: (33,22) --> EXPLORING MAP, 
+------
+
+ANT: (38,10) --> EXPLORING MAP, 
+------
+
+ANT: (36,25) --> EXPLORING MAP, 
+------
+
+ANT: (39,11) --> EXPLORING MAP, 
+------
+
+ANT: (30,15) --> EXPLORING MAP, 
+------
+
+ANT: (22,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 74 ===
 ANT: (11,16) --> EXPLORING MAP, 
 ------
 
@@ -2895,32 +2921,6 @@ ANT: (9,25) --> EXPLORING MAP,
 ------
 
 ANT: (11,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-
-=== TURN 74 ===
-ANT: (35,24) --> EXPLORING MAP, 
-------
-
-ANT: (41,13) --> EXPLORING MAP, 
-------
-
-ANT: (33,22) --> EXPLORING MAP, 
-------
-
-ANT: (38,10) --> EXPLORING MAP, 
-------
-
-ANT: (36,25) --> EXPLORING MAP, 
-------
-
-ANT: (39,11) --> EXPLORING MAP, 
-------
-
-ANT: (30,15) --> EXPLORING MAP, 
-------
-
-ANT: (22,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
@@ -3810,10 +3810,10 @@ ANT: (17,7) --> EXPLORING MAP,
 ANT: (4,17) --> EXPLORING MAP, 
 ------
 
-ANT: (15,31) --> EXPLORING MAP, 
+ANT: (10,12) --> EXPLORING MAP, 
 ------
 
-ANT: (10,12) --> EXPLORING MAP, 
+ANT: (15,31) --> EXPLORING MAP, 
 ------
 
 ANT: (16,15) --> EXPLORING MAP, 
@@ -3856,13 +3856,10 @@ ANT: (17,8) --> EXPLORING MAP,
 ANT: (10,30) --> EXPLORING MAP, 
 ------
 
-ANT: (10,11) --> EXPLORING MAP, 
-------
-
-ANT: (16,31) --> EXPLORING MAP, 
-------
-
 ANT: (4,18) --> EXPLORING MAP, 
+------
+
+ANT: (15,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 ANT: (22,14) --> EXPLORING MAP, 
@@ -3871,10 +3868,13 @@ ANT: (22,14) --> EXPLORING MAP,
 ANT: (15,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
+ANT: (16,14) --> EXPLORING MAP, 
+------
+
 ANT: (0,30) --> EXPLORING MAP, 
 ------
 
-ANT: (16,14) --> EXPLORING MAP, 
+ANT: (11,12) --> EXPLORING MAP, 
 ------
 
 
@@ -3902,16 +3902,16 @@ ANT: (32,28) --> EXPLORING MAP,
 
 
 === TURN 93 ===
-ANT: (23,14) --> EXPLORING MAP, 
+ANT: (4,19) --> EXPLORING MAP, 
 ------
 
-ANT: (17,31) --> EXPLORING MAP, 
+ANT: (12,12) --> EXPLORING MAP, 
 ------
 
-ANT: (3,18) --> EXPLORING MAP, 
+ANT: (22,15) --> EXPLORING MAP, 
 ------
 
-ANT: (9,11) --> EXPLORING MAP, 
+ANT: (16,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 ANT: (9,30) --> EXPLORING MAP, 
@@ -3957,25 +3957,25 @@ ANT: (34,17) --> EXPLORING MAP,
 ANT: (19,8) --> EXPLORING MAP, 
 ------
 
+ANT: (13,12) --> EXPLORING MAP, 
+------
+
 ANT: (15,13) --> EXPLORING MAP, 
 ------
 
-ANT: (24,14) --> EXPLORING MAP, 
+ANT: (23,15) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (8,11) --> EXPLORING MAP, 
+ANT: (16,31) --> EXPLORING MAP, 
+------
+
+ANT: (14,7) --> EXPLORING MAP, 
 ------
 
 ANT: (9,29) --> EXPLORING MAP, 
 ------
 
-ANT: (15,8) --> EXPLORING MAP, 
-------
-
 ANT: (3,19) --> EXPLORING MAP, 
-------
-
-ANT: (18,31) --> EXPLORING MAP, 
 ------
 
 ANT: (1,31) --> EXPLORING MAP, 
@@ -4009,28 +4009,28 @@ ANT: (36,32) --> AT A JUNCTION, EXPLORING MAP,
 ANT: (15,12) --> EXPLORING MAP, 
 ------
 
-ANT: (18,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (20,8) --> EXPLORING MAP, 
+ANT: (2,31) --> EXPLORING MAP, 
 ------
 
 ANT: (3,20) --> EXPLORING MAP, 
 ------
 
-ANT: (8,10) --> EXPLORING MAP, 
+ANT: (15,31) --> EXPLORING MAP, 
+------
+
+ANT: (24,15) --> EXPLORING MAP, 
+------
+
+ANT: (14,12) --> EXPLORING MAP, 
+------
+
+ANT: (13,7) --> EXPLORING MAP, 
 ------
 
 ANT: (8,29) --> EXPLORING MAP, 
 ------
 
-ANT: (15,9) --> EXPLORING MAP, 
-------
-
-ANT: (25,14) --> EXPLORING MAP, 
-------
-
-ANT: (1,30) --> EXPLORING MAP, 
+ANT: (20,8) --> EXPLORING MAP, 
 ------
 
 
@@ -4039,9 +4039,6 @@ ANT: (42,8) --> EXPLORING MAP,
 ------
 
 ANT: (31,7) --> EXPLORING MAP, 
-------
-
-ANT: (37,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 ANT: (28,28) --> EXPLORING MAP, 
@@ -4053,47 +4050,44 @@ ANT: (41,9) --> EXPLORING MAP,
 ANT: (35,18) --> EXPLORING MAP, 
 ------
 
+ANT: (37,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
 ANT: (31,30) --> EXPLORING MAP, 
 ------
 
 
 === TURN 96 ===
-ANT: (26,14) --> EXPLORING MAP, 
-------
-
-ANT: (16,9) --> EXPLORING MAP, 
-------
-
-ANT: (2,20) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (21,8) --> EXPLORING MAP, 
-------
-
-ANT: (14,12) --> EXPLORING MAP, 
-------
-
-ANT: (7,10) --> EXPLORING MAP, 
-------
-
-ANT: (19,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (1,29) --> EXPLORING MAP, 
-------
-
 ANT: (7,29) --> EXPLORING MAP, 
+------
+
+ANT: (14,31) --> EXPLORING MAP, 
+------
+
+ANT: (24,14) --> EXPLORING MAP, 
+------
+
+ANT: (14,13) --> EXPLORING MAP, 
+------
+
+ANT: (13,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (2,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (20,9) --> EXPLORING MAP, 
+------
+
+ANT: (4,20) --> EXPLORING MAP, 
+------
+
+ANT: (16,12) --> EXPLORING MAP, 
 ------
 
 
 === TURN 97 ===
 ANT: (36,18) --> EXPLORING MAP, 
-------
-
-ANT: (28,29) --> EXPLORING MAP, 
-------
-
-ANT: (30,7) --> EXPLORING MAP, 
 ------
 
 ANT: (41,8) --> EXPLORING MAP, 
@@ -4102,59 +4096,65 @@ ANT: (41,8) --> EXPLORING MAP,
 ANT: (38,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (30,30) --> EXPLORING MAP, 
+ANT: (28,29) --> EXPLORING MAP, 
 ------
 
 ANT: (0,8) --> EXPLORING MAP, 
 ------
 
+ANT: (30,7) --> EXPLORING MAP, 
+------
+
+ANT: (31,31) --> EXPLORING MAP, 
+------
+
 
 === TURN 97 ===
-ANT: (19,31) --> EXPLORING MAP, 
+ANT: (21,9) --> EXPLORING MAP, 
 ------
 
-ANT: (13,12) --> EXPLORING MAP, 
+ANT: (3,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (2,19) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (16,8) --> EXPLORING MAP, 
-------
-
-ANT: (22,8) --> EXPLORING MAP, 
+ANT: (14,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 ANT: (7,28) --> EXPLORING MAP, 
 ------
 
-ANT: (26,13) --> EXPLORING MAP, 
+ANT: (24,13) --> EXPLORING MAP, 
 ------
 
-ANT: (0,29) --> EXPLORING MAP, 
+ANT: (14,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (7,9) --> EXPLORING MAP, 
+ANT: (17,12) --> EXPLORING MAP, 
+------
+
+ANT: (14,14) --> EXPLORING MAP, 
+------
+
+ANT: (4,21) --> EXPLORING MAP, 
 ------
 
 
 === TURN 98 ===
-ANT: (39,32) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (29,7) --> EXPLORING MAP, 
 ------
 
 ANT: (28,30) --> EXPLORING MAP, 
 ------
 
-ANT: (29,30) --> EXPLORING MAP, 
+ANT: (38,31) --> EXPLORING MAP, 
 ------
 
-ANT: (36,17) --> EXPLORING MAP, 
+ANT: (37,18) --> EXPLORING MAP, 
 ------
 
-ANT: (30,8) --> EXPLORING MAP, 
+ANT: (1,8) --> EXPLORING MAP, 
 ------
 
-ANT: (0,7) --> EXPLORING MAP, 
+ANT: (32,31) --> EXPLORING MAP, 
 ------
 
 ANT: (41,7) --> EXPLORING MAP, 
@@ -4162,45 +4162,39 @@ ANT: (41,7) --> EXPLORING MAP,
 
 
 === TURN 98 ===
-ANT: (7,27) --> EXPLORING MAP, 
+ANT: (18,12) --> EXPLORING MAP, 
 ------
 
-ANT: (12,12) --> EXPLORING MAP, 
+ANT: (25,13) --> EXPLORING MAP, 
 ------
 
-ANT: (23,8) --> EXPLORING MAP, 
+ANT: (22,9) --> EXPLORING MAP, 
 ------
 
-ANT: (27,13) --> EXPLORING MAP, 
+ANT: (3,31) --> EXPLORING MAP, 
 ------
 
-ANT: (15,8) --> EXPLORING MAP, 
+ANT: (15,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (3,19) --> EXPLORING MAP, 
+ANT: (14,15) --> EXPLORING MAP, 
 ------
 
-ANT: (42,29) --> EXPLORING MAP, 
+ANT: (5,21) --> EXPLORING MAP, 
 ------
 
-ANT: (7,8) --> EXPLORING MAP, 
+ANT: (7,29) --> EXPLORING MAP, 
 ------
 
-ANT: (19,30) --> EXPLORING MAP, 
+ANT: (13,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
 === TURN 99 ===
+ANT: (37,31) --> EXPLORING MAP, 
+------
+
 ANT: (42,7) --> EXPLORING MAP, 
-------
-
-ANT: (30,9) --> EXPLORING MAP, 
-------
-
-ANT: (29,31) --> EXPLORING MAP, 
-------
-
-ANT: (39,31) --> EXPLORING MAP, 
 ------
 
 ANT: (27,30) --> EXPLORING MAP, 
@@ -4209,464 +4203,482 @@ ANT: (27,30) --> EXPLORING MAP,
 ANT: (1,7) --> EXPLORING MAP, 
 ------
 
-ANT: (36,16) --> EXPLORING MAP, 
+ANT: (32,30) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 99 ===
-ANT: (24,8) --> EXPLORING MAP, 
-------
-
-ANT: (41,29) --> EXPLORING MAP, 
-------
-
-ANT: (7,7) --> EXPLORING MAP, 
-------
-
-ANT: (20,30) --> EXPLORING MAP, 
-------
-
-ANT: (28,13) --> EXPLORING MAP, 
-------
-
-ANT: (3,18) --> EXPLORING MAP, 
-------
-
-ANT: (15,7) --> EXPLORING MAP, 
-------
-
-ANT: (6,27) --> EXPLORING MAP, 
-------
-
-ANT: (11,12) --> EXPLORING MAP, 
-------
-
-
-=== TURN 100 ===
-ANT: (2,7) --> EXPLORING MAP, 
-------
-
-ANT: (29,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (29,9) --> EXPLORING MAP, 
-------
-
-ANT: (0,7) --> EXPLORING MAP, 
-------
-
-ANT: (35,16) --> EXPLORING MAP, 
-------
-
-ANT: (27,31) --> EXPLORING MAP, 
-------
-
-
-=== TURN 100 ===
-ANT: (11,11) --> EXPLORING MAP, 
-------
-
-ANT: (24,7) --> EXPLORING MAP, 
-------
-
-ANT: (2,18) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (6,28) --> EXPLORING MAP, 
-------
-
-ANT: (21,30) --> EXPLORING MAP, 
-------
-
-ANT: (28,14) --> EXPLORING MAP, 
-------
-
-ANT: (8,7) --> EXPLORING MAP, 
-------
-
-ANT: (16,7) --> EXPLORING MAP, 
-------
-
-
-=== TURN 101 ===
-ANT: (34,16) --> EXPLORING MAP, 
-------
-
-ANT: (28,31) --> EXPLORING MAP, 
-------
-
-ANT: (29,8) --> EXPLORING MAP, 
-------
-
-ANT: (28,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (0,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (2,8) --> EXPLORING MAP, 
-------
-
-
-=== TURN 101 ===
-ANT: (16,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (10,11) --> EXPLORING MAP, 
-------
-
-ANT: (6,29) --> EXPLORING MAP, 
-------
-
-ANT: (28,15) --> EXPLORING MAP, 
-------
-
-ANT: (8,8) --> EXPLORING MAP, 
-------
-
-ANT: (24,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (2,19) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (21,31) --> EXPLORING MAP, 
-------
-
-
-=== TURN 102 ===
-ANT: (27,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (29,7) --> EXPLORING MAP, 
-------
-
-ANT: (29,31) --> EXPLORING MAP, 
-------
-
-ANT: (3,8) --> EXPLORING MAP, 
-------
-
-ANT: (42,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (34,17) --> EXPLORING MAP, 
-------
-
-
-=== TURN 102 ===
-ANT: (17,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (9,8) --> EXPLORING MAP, 
-------
-
-ANT: (10,12) --> EXPLORING MAP, 
-------
-
-ANT: (2,20) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (23,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (29,15) --> EXPLORING MAP, 
-------
-
-ANT: (22,31) --> EXPLORING MAP, 
-------
-
-ANT: (5,29) --> EXPLORING MAP, 
-------
-
-
-=== TURN 103 ===
-ANT: (42,7) --> EXPLORING MAP, 
-------
-
-ANT: (29,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (33,17) --> EXPLORING MAP, 
-------
-
-ANT: (27,31) --> EXPLORING MAP, 
-------
-
-ANT: (3,7) --> EXPLORING MAP, 
+ANT: (37,19) --> EXPLORING MAP, 
 ------
 
 ANT: (28,7) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 103 ===
-ANT: (4,29) --> EXPLORING MAP, 
+=== TURN 99 ===
+ANT: (13,15) --> EXPLORING MAP, 
 ------
 
-ANT: (2,21) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (9,9) --> EXPLORING MAP, 
-------
-
-ANT: (23,7) --> EXPLORING MAP, 
-------
-
-ANT: (18,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (29,14) --> EXPLORING MAP, 
-------
-
-ANT: (10,13) --> EXPLORING MAP, 
-------
-
-ANT: (22,30) --> EXPLORING MAP, 
-------
-
-
-=== TURN 104 ===
-ANT: (26,31) --> EXPLORING MAP, 
-------
-
-ANT: (3,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (28,8) --> EXPLORING MAP, 
-------
-
-ANT: (33,18) --> EXPLORING MAP, 
-------
-
-ANT: (41,7) --> EXPLORING MAP, 
-------
-
-ANT: (30,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-
-=== TURN 104 ===
-ANT: (22,29) --> EXPLORING MAP, 
-------
-
-ANT: (19,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (30,14) --> EXPLORING MAP, 
-------
-
-ANT: (3,21) --> EXPLORING MAP, 
-------
-
-ANT: (9,10) --> EXPLORING MAP, 
-------
-
-ANT: (10,14) --> EXPLORING MAP, 
-------
-
-ANT: (22,7) --> EXPLORING MAP, 
-------
-
-ANT: (4,30) --> EXPLORING MAP, 
-------
-
-
-=== TURN 105 ===
-ANT: (41,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (4,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (34,18) --> EXPLORING MAP, 
-------
-
-ANT: (26,30) --> EXPLORING MAP, 
-------
-
-ANT: (27,8) --> EXPLORING MAP, 
-------
-
-ANT: (31,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-
-=== TURN 105 ===
-ANT: (9,14) --> EXPLORING MAP, 
-------
-
-ANT: (19,7) --> EXPLORING MAP, 
-------
-
-ANT: (23,29) --> EXPLORING MAP, 
-------
-
-ANT: (8,10) --> EXPLORING MAP, 
+ANT: (7,30) --> EXPLORING MAP, 
 ------
 
 ANT: (3,30) --> EXPLORING MAP, 
 ------
 
-ANT: (4,21) --> EXPLORING MAP, 
+ANT: (23,9) --> EXPLORING MAP, 
 ------
 
-ANT: (30,15) --> EXPLORING MAP, 
+ANT: (5,20) --> EXPLORING MAP, 
 ------
 
-ANT: (21,7) --> EXPLORING MAP, 
+ANT: (15,7) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 106 ===
-ANT: (32,32) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (26,13) --> EXPLORING MAP, 
 ------
 
-ANT: (27,7) --> EXPLORING MAP, 
+ANT: (13,31) --> EXPLORING MAP, 
 ------
 
-ANT: (5,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (26,29) --> EXPLORING MAP, 
-------
-
-ANT: (42,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (34,17) --> EXPLORING MAP, 
+ANT: (18,11) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 106 ===
-ANT: (9,13) --> EXPLORING MAP, 
-------
-
-ANT: (31,15) --> EXPLORING MAP, 
-------
-
-ANT: (3,31) --> EXPLORING MAP, 
-------
-
-ANT: (20,7) --> EXPLORING MAP, 
-------
-
-ANT: (5,21) --> EXPLORING MAP, 
-------
-
-ANT: (7,10) --> EXPLORING MAP, 
-------
-
-ANT: (21,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (23,28) --> EXPLORING MAP, 
-------
-
-
-=== TURN 107 ===
-ANT: (42,7) --> EXPLORING MAP, 
-------
-
-ANT: (5,7) --> EXPLORING MAP, 
-------
-
-ANT: (26,28) --> EXPLORING MAP, 
-------
-
-ANT: (27,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (33,32) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (35,17) --> EXPLORING MAP, 
-------
-
-
-=== TURN 107 ===
-ANT: (2,31) --> EXPLORING MAP, 
-------
-
-ANT: (10,13) --> EXPLORING MAP, 
-------
-
-ANT: (31,16) --> EXPLORING MAP, 
-------
-
-ANT: (6,21) --> EXPLORING MAP, 
-------
-
-ANT: (23,27) --> EXPLORING MAP, 
-------
-
-ANT: (20,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (22,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
-
-ANT: (7,11) --> EXPLORING MAP, 
-------
-
-
-=== TURN 108 ===
-ANT: (6,7) --> EXPLORING MAP, 
-------
-
-ANT: (36,17) --> EXPLORING MAP, 
+=== TURN 100 ===
+ANT: (37,30) --> EXPLORING MAP, 
 ------
 
 ANT: (0,7) --> EXPLORING MAP, 
 ------
 
-ANT: (34,32) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (27,7) --> EXPLORING MAP, 
 ------
 
-ANT: (26,27) --> EXPLORING MAP, 
+ANT: (1,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (26,6) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (33,30) --> EXPLORING MAP, 
+------
+
+ANT: (38,19) --> EXPLORING MAP, 
+------
+
+ANT: (27,29) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 108 ===
-ANT: (19,6) --> AT A JUNCTION, EXPLORING MAP, 
+=== TURN 100 ===
+ANT: (24,9) --> EXPLORING MAP, 
+------
+
+ANT: (8,30) --> EXPLORING MAP, 
+------
+
+ANT: (13,14) --> EXPLORING MAP, 
+------
+
+ANT: (2,30) --> EXPLORING MAP, 
+------
+
+ANT: (27,13) --> EXPLORING MAP, 
 ------
 
 ANT: (6,20) --> EXPLORING MAP, 
 ------
 
-ANT: (7,12) --> EXPLORING MAP, 
+ANT: (15,8) --> EXPLORING MAP, 
 ------
 
-ANT: (31,17) --> EXPLORING MAP, 
+ANT: (13,30) --> EXPLORING MAP, 
 ------
 
-ANT: (2,32) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (19,11) --> EXPLORING MAP, 
 ------
 
-ANT: (10,14) --> EXPLORING MAP, 
+
+=== TURN 101 ===
+ANT: (38,20) --> EXPLORING MAP, 
 ------
 
-ANT: (23,26) --> EXPLORING MAP, 
+ANT: (26,29) --> EXPLORING MAP, 
 ------
 
-ANT: (23,6) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (34,30) --> EXPLORING MAP, 
+------
+
+ANT: (37,29) --> EXPLORING MAP, 
+------
+
+ANT: (0,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (27,8) --> EXPLORING MAP, 
+------
+
+ANT: (0,8) --> EXPLORING MAP, 
+------
+
+
+=== TURN 101 ===
+ANT: (20,11) --> EXPLORING MAP, 
+------
+
+ANT: (14,30) --> EXPLORING MAP, 
+------
+
+ANT: (2,31) --> EXPLORING MAP, 
+------
+
+ANT: (16,8) --> EXPLORING MAP, 
+------
+
+ANT: (8,31) --> EXPLORING MAP, 
+------
+
+ANT: (28,13) --> EXPLORING MAP, 
+------
+
+ANT: (6,21) --> EXPLORING MAP, 
+------
+
+ANT: (14,14) --> EXPLORING MAP, 
+------
+
+ANT: (24,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 102 ===
+ANT: (34,29) --> EXPLORING MAP, 
+------
+
+ANT: (38,29) --> EXPLORING MAP, 
+------
+
+ANT: (37,20) --> EXPLORING MAP, 
+------
+
+ANT: (0,7) --> EXPLORING MAP, 
+------
+
+ANT: (28,8) --> EXPLORING MAP, 
+------
+
+ANT: (1,8) --> EXPLORING MAP, 
+------
+
+ANT: (26,30) --> EXPLORING MAP, 
+------
+
+
+=== TURN 102 ===
+ANT: (7,21) --> EXPLORING MAP, 
+------
+
+ANT: (16,9) --> EXPLORING MAP, 
+------
+
+ANT: (15,30) --> EXPLORING MAP, 
+------
+
+ANT: (14,13) --> EXPLORING MAP, 
+------
+
+ANT: (20,12) --> EXPLORING MAP, 
+------
+
+ANT: (7,31) --> EXPLORING MAP, 
+------
+
+ANT: (24,11) --> EXPLORING MAP, 
+------
+
+ANT: (28,12) --> EXPLORING MAP, 
+------
+
+ANT: (1,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 103 ===
+ANT: (29,8) --> EXPLORING MAP, 
+------
+
+ANT: (42,7) --> EXPLORING MAP, 
+------
+
+ANT: (38,30) --> EXPLORING MAP, 
+------
+
+ANT: (27,30) --> EXPLORING MAP, 
+------
+
+ANT: (1,7) --> EXPLORING MAP, 
+------
+
+ANT: (33,29) --> EXPLORING MAP, 
+------
+
+ANT: (36,20) --> EXPLORING MAP, 
+------
+
+
+=== TURN 103 ===
+ANT: (7,20) --> EXPLORING MAP, 
+------
+
+ANT: (25,11) --> EXPLORING MAP, 
+------
+
+ANT: (16,10) --> EXPLORING MAP, 
+------
+
+ANT: (6,31) --> EXPLORING MAP, 
+------
+
+ANT: (14,12) --> EXPLORING MAP, 
+------
+
+ANT: (29,12) --> EXPLORING MAP, 
+------
+
+ANT: (15,29) --> EXPLORING MAP, 
+------
+
+ANT: (19,12) --> EXPLORING MAP, 
+------
+
+ANT: (0,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 104 ===
+ANT: (14,11) --> EXPLORING MAP, 
+------
+
+ANT: (42,31) --> EXPLORING MAP, 
+------
+
+ANT: (16,11) --> EXPLORING MAP, 
+------
+
+ANT: (6,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (8,20) --> EXPLORING MAP, 
+------
+
+ANT: (15,28) --> EXPLORING MAP, 
+------
+
+ANT: (26,11) --> EXPLORING MAP, 
+------
+
+ANT: (19,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 104 ===
+ANT: (35,20) --> EXPLORING MAP, 
+------
+
+ANT: (42,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (38,31) --> EXPLORING MAP, 
+------
+
+ANT: (0,7) --> EXPLORING MAP, 
+------
+
+ANT: (33,28) --> EXPLORING MAP, 
+------
+
+ANT: (27,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 105 ===
+ANT: (42,7) --> EXPLORING MAP, 
+------
+
+ANT: (38,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (35,21) --> EXPLORING MAP, 
+------
+
+ANT: (26,31) --> EXPLORING MAP, 
+------
+
+ANT: (41,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (32,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 105 ===
+ANT: (14,28) --> EXPLORING MAP, 
+------
+
+ANT: (18,13) --> EXPLORING MAP, 
+------
+
+ANT: (14,10) --> EXPLORING MAP, 
+------
+
+ANT: (7,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (8,21) --> EXPLORING MAP, 
+------
+
+ANT: (42,30) --> EXPLORING MAP, 
+------
+
+ANT: (27,11) --> EXPLORING MAP, 
+------
+
+ANT: (16,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 106 ===
+ANT: (32,27) --> EXPLORING MAP, 
+------
+
+ANT: (39,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (26,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (34,21) --> EXPLORING MAP, 
+------
+
+ANT: (42,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (40,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 106 ===
+ANT: (15,12) --> EXPLORING MAP, 
+------
+
+ANT: (18,14) --> EXPLORING MAP, 
+------
+
+ANT: (8,22) --> EXPLORING MAP, 
+------
+
+ANT: (8,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (27,12) --> EXPLORING MAP, 
+------
+
+ANT: (13,28) --> EXPLORING MAP, 
+------
+
+ANT: (41,30) --> EXPLORING MAP, 
+------
+
+ANT: (13,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 107 ===
+ANT: (27,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (0,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (39,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (34,22) --> EXPLORING MAP, 
+------
+
+ANT: (32,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 107 ===
+ANT: (9,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (15,13) --> EXPLORING MAP, 
+------
+
+ANT: (18,15) --> EXPLORING MAP, 
+------
+
+ANT: (9,22) --> EXPLORING MAP, 
+------
+
+ANT: (13,29) --> EXPLORING MAP, 
+------
+
+ANT: (26,12) --> EXPLORING MAP, 
+------
+
+ANT: (13,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 108 ===
+ANT: (27,31) --> EXPLORING MAP, 
+------
+
+ANT: (1,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (35,22) --> EXPLORING MAP, 
+------
+
+ANT: (31,26) --> EXPLORING MAP, 
+------
+
+ANT: (39,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 108 ===
+ANT: (14,11) --> EXPLORING MAP, 
+------
+
+ANT: (14,13) --> EXPLORING MAP, 
+------
+
+ANT: (9,23) --> EXPLORING MAP, 
+------
+
+ANT: (18,16) --> EXPLORING MAP, 
+------
+
+ANT: (9,31) --> EXPLORING MAP, 
+------
+
+ANT: (26,13) --> EXPLORING MAP, 
+------
+
+ANT: (14,29) --> EXPLORING MAP, 
 ------
 
 
 === TURN 109 ===
-ANT: (6,8) --> EXPLORING MAP, 
+ANT: (28,31) --> EXPLORING MAP, 
 ------
 
-ANT: (26,26) --> EXPLORING MAP, 
+ANT: (30,26) --> EXPLORING MAP, 
 ------
 
-ANT: (34,31) --> EXPLORING MAP, 
+ANT: (38,7) --> EXPLORING MAP, 
 ------
 
-ANT: (37,17) --> EXPLORING MAP, 
+ANT: (36,22) --> EXPLORING MAP, 
 ------
 
 ANT: (1,7) --> EXPLORING MAP, 
@@ -4674,499 +4686,2577 @@ ANT: (1,7) --> EXPLORING MAP,
 
 
 === TURN 109 ===
-ANT: (7,20) --> EXPLORING MAP, 
+ANT: (14,10) --> EXPLORING MAP, 
 ------
 
-ANT: (3,32) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (14,30) --> EXPLORING MAP, 
 ------
 
-ANT: (19,7) --> EXPLORING MAP, 
+ANT: (19,16) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (10,15) --> EXPLORING MAP, 
+ANT: (26,14) --> EXPLORING MAP, 
 ------
 
-ANT: (30,17) --> EXPLORING MAP, 
+ANT: (9,30) --> EXPLORING MAP, 
+------
+
+ANT: (14,14) --> EXPLORING MAP, 
+------
+
+ANT: (10,23) --> EXPLORING MAP, 
+------
+
+
+=== TURN 110 ===
+ANT: (2,7) --> EXPLORING MAP, 
+------
+
+ANT: (36,21) --> EXPLORING MAP, 
+------
+
+ANT: (30,25) --> EXPLORING MAP, 
+------
+
+ANT: (29,31) --> EXPLORING MAP, 
+------
+
+ANT: (38,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 110 ===
+ANT: (10,30) --> EXPLORING MAP, 
+------
+
+ANT: (27,14) --> EXPLORING MAP, 
+------
+
+ANT: (13,14) --> EXPLORING MAP, 
+------
+
+ANT: (15,10) --> EXPLORING MAP, 
+------
+
+ANT: (11,23) --> EXPLORING MAP, 
+------
+
+ANT: (13,30) --> EXPLORING MAP, 
+------
+
+ANT: (20,16) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 111 ===
+ANT: (29,30) --> EXPLORING MAP, 
+------
+
+ANT: (3,7) --> EXPLORING MAP, 
+------
+
+ANT: (39,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (36,20) --> EXPLORING MAP, 
+------
+
+ANT: (30,24) --> EXPLORING MAP, 
+------
+
+
+=== TURN 111 ===
+ANT: (12,14) --> EXPLORING MAP, 
+------
+
+ANT: (13,29) --> EXPLORING MAP, 
+------
+
+ANT: (15,9) --> EXPLORING MAP, 
+------
+
+ANT: (20,15) --> EXPLORING MAP, 
+------
+
+ANT: (12,23) --> EXPLORING MAP, 
+------
+
+ANT: (10,29) --> EXPLORING MAP, 
+------
+
+ANT: (28,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 112 ===
+ANT: (35,20) --> EXPLORING MAP, 
+------
+
+ANT: (3,8) --> EXPLORING MAP, 
+------
+
+ANT: (29,24) --> EXPLORING MAP, 
+------
+
+ANT: (30,30) --> EXPLORING MAP, 
+------
+
+ANT: (40,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 112 ===
+ANT: (12,13) --> EXPLORING MAP, 
+------
+
+ANT: (28,15) --> EXPLORING MAP, 
+------
+
+ANT: (12,24) --> EXPLORING MAP, 
+------
+
+ANT: (19,15) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (13,28) --> EXPLORING MAP, 
+------
+
+ANT: (15,8) --> EXPLORING MAP, 
+------
+
+ANT: (10,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 113 ===
+ANT: (35,21) --> EXPLORING MAP, 
+------
+
+ANT: (3,9) --> EXPLORING MAP, 
+------
+
+ANT: (30,31) --> EXPLORING MAP, 
+------
+
+ANT: (40,7) --> EXPLORING MAP, 
+------
+
+ANT: (29,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 113 ===
+ANT: (12,25) --> EXPLORING MAP, 
+------
+
+ANT: (19,14) --> EXPLORING MAP, 
+------
+
+ANT: (13,27) --> EXPLORING MAP, 
+------
+
+ANT: (9,28) --> EXPLORING MAP, 
+------
+
+ANT: (29,15) --> EXPLORING MAP, 
+------
+
+ANT: (14,8) --> EXPLORING MAP, 
+------
+
+ANT: (11,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 114 ===
+ANT: (4,9) --> EXPLORING MAP, 
+------
+
+ANT: (30,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (40,8) --> EXPLORING MAP, 
+------
+
+ANT: (36,21) --> EXPLORING MAP, 
+------
+
+ANT: (28,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 114 ===
+ANT: (9,27) --> EXPLORING MAP, 
+------
+
+ANT: (12,27) --> EXPLORING MAP, 
+------
+
+ANT: (12,26) --> EXPLORING MAP, 
+------
+
+ANT: (10,13) --> EXPLORING MAP, 
+------
+
+ANT: (30,15) --> EXPLORING MAP, 
+------
+
+ANT: (14,9) --> EXPLORING MAP, 
+------
+
+ANT: (20,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 115 ===
+ANT: (5,9) --> EXPLORING MAP, 
+------
+
+ANT: (31,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (37,21) --> EXPLORING MAP, 
+------
+
+ANT: (28,26) --> EXPLORING MAP, 
+------
+
+ANT: (39,8) --> EXPLORING MAP, 
+------
+
+
+=== TURN 115 ===
+ANT: (9,13) --> EXPLORING MAP, 
+------
+
+ANT: (30,14) --> EXPLORING MAP, 
+------
+
+ANT: (11,26) --> EXPLORING MAP, 
+------
+
+ANT: (15,9) --> EXPLORING MAP, 
+------
+
+ANT: (8,27) --> EXPLORING MAP, 
+------
+
+ANT: (12,28) --> EXPLORING MAP, 
+------
+
+ANT: (20,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 116 ===
+ANT: (8,13) --> EXPLORING MAP, 
+------
+
+ANT: (16,9) --> EXPLORING MAP, 
+------
+
+ANT: (31,14) --> EXPLORING MAP, 
+------
+
+ANT: (11,28) --> EXPLORING MAP, 
+------
+
+ANT: (19,15) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (10,26) --> EXPLORING MAP, 
+------
+
+ANT: (8,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 116 ===
+ANT: (6,9) --> EXPLORING MAP, 
+------
+
+ANT: (32,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (38,8) --> EXPLORING MAP, 
+------
+
+ANT: (27,26) --> EXPLORING MAP, 
+------
+
+ANT: (37,20) --> EXPLORING MAP, 
+------
+
+
+=== TURN 117 ===
+ANT: (26,26) --> EXPLORING MAP, 
+------
+
+ANT: (6,10) --> EXPLORING MAP, 
+------
+
+ANT: (38,20) --> EXPLORING MAP, 
+------
+
+ANT: (33,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (37,8) --> EXPLORING MAP, 
+------
+
+
+=== TURN 117 ===
+ANT: (9,26) --> EXPLORING MAP, 
+------
+
+ANT: (8,14) --> EXPLORING MAP, 
+------
+
+ANT: (16,10) --> EXPLORING MAP, 
+------
+
+ANT: (7,26) --> EXPLORING MAP, 
+------
+
+ANT: (32,14) --> EXPLORING MAP, 
+------
+
+ANT: (19,14) --> EXPLORING MAP, 
+------
+
+ANT: (11,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 118 ===
+ANT: (38,19) --> EXPLORING MAP, 
+------
+
+ANT: (37,9) --> EXPLORING MAP, 
+------
+
+ANT: (5,10) --> EXPLORING MAP, 
+------
+
+ANT: (25,26) --> EXPLORING MAP, 
+------
+
+ANT: (34,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 118 ===
+ANT: (16,11) --> EXPLORING MAP, 
+------
+
+ANT: (9,27) --> EXPLORING MAP, 
+------
+
+ANT: (7,27) --> EXPLORING MAP, 
+------
+
+ANT: (32,13) --> EXPLORING MAP, 
+------
+
+ANT: (7,14) --> EXPLORING MAP, 
+------
+
+ANT: (10,27) --> EXPLORING MAP, 
+------
+
+ANT: (20,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 119 ===
+ANT: (4,10) --> EXPLORING MAP, 
+------
+
+ANT: (36,9) --> EXPLORING MAP, 
+------
+
+ANT: (35,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (25,25) --> EXPLORING MAP, 
+------
+
+ANT: (37,19) --> EXPLORING MAP, 
+------
+
+
+=== TURN 119 ===
+ANT: (21,14) --> EXPLORING MAP, 
+------
+
+ANT: (33,13) --> EXPLORING MAP, 
+------
+
+ANT: (15,11) --> EXPLORING MAP, 
+------
+
+ANT: (6,27) --> EXPLORING MAP, 
+------
+
+ANT: (8,27) --> EXPLORING MAP, 
+------
+
+ANT: (10,28) --> EXPLORING MAP, 
+------
+
+ANT: (6,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 120 ===
+ANT: (36,19) --> EXPLORING MAP, 
+------
+
+ANT: (25,24) --> EXPLORING MAP, 
+------
+
+ANT: (35,9) --> EXPLORING MAP, 
+------
+
+ANT: (4,11) --> EXPLORING MAP, 
+------
+
+ANT: (36,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 120 ===
+ANT: (5,27) --> EXPLORING MAP, 
+------
+
+ANT: (15,10) --> EXPLORING MAP, 
+------
+
+ANT: (22,14) --> EXPLORING MAP, 
+------
+
+ANT: (5,14) --> EXPLORING MAP, 
+------
+
+ANT: (34,13) --> EXPLORING MAP, 
+------
+
+ANT: (9,28) --> EXPLORING MAP, 
+------
+
+ANT: (8,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 121 ===
+ANT: (4,12) --> EXPLORING MAP, 
+------
+
+ANT: (24,24) --> EXPLORING MAP, 
+------
+
+ANT: (35,19) --> EXPLORING MAP, 
+------
+
+ANT: (37,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (36,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 121 ===
+ANT: (9,27) --> EXPLORING MAP, 
+------
+
+ANT: (35,13) --> EXPLORING MAP, 
+------
+
+ANT: (5,15) --> EXPLORING MAP, 
+------
+
+ANT: (23,14) --> EXPLORING MAP, 
+------
+
+ANT: (14,10) --> EXPLORING MAP, 
+------
+
+ANT: (8,29) --> EXPLORING MAP, 
+------
+
+ANT: (5,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 122 ===
+ANT: (34,19) --> EXPLORING MAP, 
+------
+
+ANT: (36,8) --> EXPLORING MAP, 
+------
+
+ANT: (38,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (24,25) --> EXPLORING MAP, 
+------
+
+ANT: (5,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 122 ===
+ANT: (9,26) --> EXPLORING MAP, 
+------
+
+ANT: (7,29) --> EXPLORING MAP, 
+------
+
+ANT: (4,15) --> EXPLORING MAP, 
+------
+
+ANT: (36,13) --> EXPLORING MAP, 
+------
+
+ANT: (14,9) --> EXPLORING MAP, 
+------
+
+ANT: (6,26) --> EXPLORING MAP, 
+------
+
+ANT: (23,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 123 ===
+ANT: (39,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (34,18) --> EXPLORING MAP, 
 ------
 
 ANT: (6,12) --> EXPLORING MAP, 
+------
+
+ANT: (37,8) --> EXPLORING MAP, 
 ------
 
 ANT: (23,25) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 110 ===
-ANT: (35,31) --> EXPLORING MAP, 
+=== TURN 123 ===
+ANT: (3,15) --> EXPLORING MAP, 
 ------
 
-ANT: (27,26) --> EXPLORING MAP, 
+ANT: (7,26) --> EXPLORING MAP, 
 ------
 
-ANT: (1,6) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (37,13) --> EXPLORING MAP, 
 ------
 
-ANT: (38,17) --> EXPLORING MAP, 
+ANT: (7,30) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 110 ===
-ANT: (29,17) --> EXPLORING MAP, 
-------
-
-ANT: (8,20) --> EXPLORING MAP, 
+ANT: (24,13) --> EXPLORING MAP, 
 ------
 
-ANT: (24,25) --> EXPLORING MAP, 
+ANT: (13,9) --> EXPLORING MAP, 
 ------
 
-ANT: (3,31) --> EXPLORING MAP, 
+ANT: (8,26) --> EXPLORING MAP, 
 ------
 
-ANT: (20,7) --> EXPLORING MAP, 
-------
 
-ANT: (11,15) --> EXPLORING MAP, 
+=== TURN 124 ===
+ANT: (40,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-
-=== TURN 111 ===
-ANT: (2,6) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (38,8) --> EXPLORING MAP, 
 ------
 
-ANT: (27,25) --> EXPLORING MAP, 
+ANT: (6,11) --> EXPLORING MAP, 
 ------
 
-ANT: (35,30) --> EXPLORING MAP, 
+ANT: (23,26) --> EXPLORING MAP, 
 ------
 
-ANT: (39,17) --> EXPLORING MAP, 
+ANT: (34,17) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 111 ===
-ANT: (29,18) --> EXPLORING MAP, 
+=== TURN 124 ===
+ANT: (8,25) --> EXPLORING MAP, 
 ------
 
-ANT: (8,19) --> EXPLORING MAP, 
+ANT: (7,27) --> EXPLORING MAP, 
 ------
 
-ANT: (24,24) --> EXPLORING MAP, 
+ANT: (8,30) --> EXPLORING MAP, 
 ------
 
-ANT: (11,14) --> EXPLORING MAP, 
+ANT: (38,13) --> EXPLORING MAP, 
 ------
 
-ANT: (20,8) --> EXPLORING MAP, 
+ANT: (24,12) --> EXPLORING MAP, 
 ------
 
-ANT: (4,31) --> EXPLORING MAP, 
+ANT: (2,15) --> EXPLORING MAP, 
 ------
-
 
-=== TURN 112 ===
-ANT: (39,18) --> EXPLORING MAP, 
+ANT: (12,9) --> EXPLORING MAP, 
 ------
 
-ANT: (3,6) --> AT A JUNCTION, EXPLORING MAP, 
-------
 
-ANT: (36,30) --> EXPLORING MAP, 
+=== TURN 125 ===
+ANT: (41,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (26,25) --> EXPLORING MAP, 
+ANT: (5,11) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 112 ===
-ANT: (29,19) --> EXPLORING MAP, 
+ANT: (22,26) --> EXPLORING MAP, 
 ------
 
-ANT: (7,19) --> EXPLORING MAP, 
+ANT: (33,17) --> EXPLORING MAP, 
 ------
 
-ANT: (10,14) --> EXPLORING MAP, 
+ANT: (39,8) --> EXPLORING MAP, 
 ------
 
-ANT: (20,9) --> EXPLORING MAP, 
-------
 
-ANT: (23,24) --> EXPLORING MAP, 
+=== TURN 125 ===
+ANT: (8,24) --> EXPLORING MAP, 
 ------
 
-ANT: (4,30) --> EXPLORING MAP, 
+ANT: (25,12) --> EXPLORING MAP, 
 ------
 
+ANT: (1,15) --> EXPLORING MAP, 
+------
 
-=== TURN 113 ===
-ANT: (37,30) --> EXPLORING MAP, 
+ANT: (9,30) --> EXPLORING MAP, 
 ------
 
-ANT: (26,26) --> EXPLORING MAP, 
+ANT: (6,27) --> EXPLORING MAP, 
 ------
 
-ANT: (39,19) --> EXPLORING MAP, 
+ANT: (38,12) --> EXPLORING MAP, 
 ------
 
-ANT: (3,7) --> EXPLORING MAP, 
+ANT: (12,8) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 113 ===
-ANT: (4,29) --> EXPLORING MAP, 
+=== TURN 126 ===
+ANT: (21,26) --> EXPLORING MAP, 
 ------
 
-ANT: (22,24) --> EXPLORING MAP, 
+ANT: (5,12) --> EXPLORING MAP, 
 ------
 
-ANT: (10,13) --> EXPLORING MAP, 
+ANT: (32,17) --> EXPLORING MAP, 
 ------
 
-ANT: (7,18) --> EXPLORING MAP, 
+ANT: (40,8) --> EXPLORING MAP, 
 ------
 
-ANT: (20,10) --> EXPLORING MAP, 
+ANT: (41,31) --> EXPLORING MAP, 
 ------
 
-ANT: (29,20) --> EXPLORING MAP, 
-------
 
+=== TURN 126 ===
+ANT: (39,12) --> EXPLORING MAP, 
+------
 
-=== TURN 114 ===
-ANT: (38,19) --> EXPLORING MAP, 
+ANT: (1,14) --> EXPLORING MAP, 
 ------
 
-ANT: (27,26) --> EXPLORING MAP, 
+ANT: (7,24) --> EXPLORING MAP, 
 ------
 
-ANT: (4,7) --> EXPLORING MAP, 
+ANT: (9,29) --> EXPLORING MAP, 
 ------
 
-ANT: (38,30) --> EXPLORING MAP, 
+ANT: (13,8) --> EXPLORING MAP, 
 ------
 
+ANT: (6,26) --> EXPLORING MAP, 
+------
 
-=== TURN 114 ===
-ANT: (4,28) --> EXPLORING MAP, 
+ANT: (26,12) --> EXPLORING MAP, 
 ------
 
-ANT: (22,23) --> EXPLORING MAP, 
+
+=== TURN 127 ===
+ANT: (42,31) --> EXPLORING MAP, 
 ------
 
-ANT: (30,20) --> EXPLORING MAP, 
+ANT: (21,27) --> EXPLORING MAP, 
 ------
 
-ANT: (10,12) --> EXPLORING MAP, 
+ANT: (41,8) --> EXPLORING MAP, 
 ------
 
-ANT: (21,10) --> EXPLORING MAP, 
+ANT: (5,13) --> EXPLORING MAP, 
 ------
 
-ANT: (8,18) --> EXPLORING MAP, 
+ANT: (32,18) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 115 ===
-ANT: (27,27) --> EXPLORING MAP, 
+=== TURN 127 ===
+ANT: (39,13) --> EXPLORING MAP, 
 ------
 
-ANT: (38,29) --> EXPLORING MAP, 
+ANT: (9,28) --> EXPLORING MAP, 
 ------
 
-ANT: (37,19) --> EXPLORING MAP, 
+ANT: (5,26) --> EXPLORING MAP, 
 ------
 
-ANT: (4,6) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (6,24) --> EXPLORING MAP, 
 ------
 
+ANT: (26,11) --> EXPLORING MAP, 
+------
 
-=== TURN 115 ===
-ANT: (23,23) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (2,14) --> EXPLORING MAP, 
 ------
 
-ANT: (4,27) --> EXPLORING MAP, 
+ANT: (14,8) --> EXPLORING MAP, 
 ------
 
-ANT: (30,19) --> EXPLORING MAP, 
+
+=== TURN 128 ===
+ANT: (42,8) --> EXPLORING MAP, 
 ------
 
-ANT: (21,11) --> EXPLORING MAP, 
+ANT: (31,18) --> EXPLORING MAP, 
 ------
 
-ANT: (8,17) --> EXPLORING MAP, 
+ANT: (21,28) --> EXPLORING MAP, 
 ------
 
-ANT: (11,12) --> EXPLORING MAP, 
+ANT: (0,31) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 116 ===
-ANT: (3,6) --> AT A JUNCTION, EXPLORING MAP, 
+=== TURN 128 ===
+ANT: (39,14) --> EXPLORING MAP, 
 ------
 
-ANT: (37,18) --> EXPLORING MAP, 
+ANT: (8,28) --> EXPLORING MAP, 
 ------
 
-ANT: (39,29) --> EXPLORING MAP, 
+ANT: (14,7) --> EXPLORING MAP, 
 ------
 
-ANT: (27,28) --> EXPLORING MAP, 
+ANT: (5,25) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 116 ===
-ANT: (5,27) --> EXPLORING MAP, 
+ANT: (6,23) --> EXPLORING MAP, 
 ------
 
-ANT: (12,12) --> EXPLORING MAP, 
+ANT: (26,10) --> EXPLORING MAP, 
 ------
+
 
-ANT: (24,23) --> EXPLORING MAP, 
+=== TURN 129 ===
+ANT: (0,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (7,17) --> EXPLORING MAP, 
+ANT: (42,7) --> EXPLORING MAP, 
 ------
 
-ANT: (22,11) --> EXPLORING MAP, 
+ANT: (22,28) --> EXPLORING MAP, 
 ------
 
 ANT: (30,18) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 117 ===
-ANT: (40,29) --> EXPLORING MAP, 
+=== TURN 129 ===
+ANT: (39,15) --> EXPLORING MAP, 
 ------
 
-ANT: (36,18) --> EXPLORING MAP, 
+ANT: (26,9) --> EXPLORING MAP, 
 ------
 
-ANT: (3,7) --> EXPLORING MAP, 
+ANT: (13,7) --> EXPLORING MAP, 
 ------
 
-ANT: (27,29) --> EXPLORING MAP, 
+ANT: (5,24) --> EXPLORING MAP, 
 ------
 
-
-=== TURN 117 ===
-ANT: (12,13) --> EXPLORING MAP, 
+ANT: (7,28) --> EXPLORING MAP, 
 ------
 
-ANT: (23,11) --> EXPLORING MAP, 
-------
-
-ANT: (30,17) --> EXPLORING MAP, 
-------
-
-ANT: (5,26) --> EXPLORING MAP, 
-------
-
-ANT: (24,22) --> EXPLORING MAP, 
-------
-
-ANT: (6,17) --> EXPLORING MAP, 
+ANT: (5,23) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 118 ===
-ANT: (36,19) --> EXPLORING MAP, 
+=== TURN 130 ===
+ANT: (23,28) --> EXPLORING MAP, 
 ------
 
-ANT: (41,29) --> EXPLORING MAP, 
+ANT: (30,19) --> EXPLORING MAP, 
 ------
 
-ANT: (3,8) --> EXPLORING MAP, 
+ANT: (1,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (27,30) --> EXPLORING MAP, 
-------
-
-
-=== TURN 118 ===
-ANT: (12,14) --> EXPLORING MAP, 
-------
-
-ANT: (23,10) --> EXPLORING MAP, 
-------
-
-ANT: (4,26) --> EXPLORING MAP, 
-------
-
-ANT: (30,16) --> EXPLORING MAP, 
-------
-
-ANT: (25,22) --> EXPLORING MAP, 
-------
-
-ANT: (6,16) --> EXPLORING MAP, 
+ANT: (41,7) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 119 ===
-ANT: (28,30) --> EXPLORING MAP, 
+=== TURN 130 ===
+ANT: (6,28) --> EXPLORING MAP, 
 ------
 
-ANT: (4,8) --> EXPLORING MAP, 
+ANT: (13,8) --> EXPLORING MAP, 
 ------
 
-ANT: (41,28) --> EXPLORING MAP, 
+ANT: (4,24) --> EXPLORING MAP, 
 ------
 
-ANT: (36,20) --> EXPLORING MAP, 
+ANT: (5,22) --> EXPLORING MAP, 
+------
+
+ANT: (25,9) --> EXPLORING MAP, 
+------
+
+ANT: (40,15) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 119 ===
-ANT: (12,15) --> EXPLORING MAP, 
+=== TURN 131 ===
+ANT: (24,28) --> EXPLORING MAP, 
 ------
 
-ANT: (5,16) --> EXPLORING MAP, 
+ANT: (31,19) --> EXPLORING MAP, 
 ------
 
-ANT: (26,22) --> EXPLORING MAP, 
+ANT: (40,7) --> EXPLORING MAP, 
 ------
 
-ANT: (3,26) --> EXPLORING MAP, 
+ANT: (1,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 131 ===
+ANT: (25,10) --> EXPLORING MAP, 
+------
+
+ANT: (40,14) --> EXPLORING MAP, 
+------
+
+ANT: (4,23) --> EXPLORING MAP, 
+------
+
+ANT: (5,21) --> EXPLORING MAP, 
+------
+
+ANT: (6,27) --> EXPLORING MAP, 
+------
+
+ANT: (13,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 132 ===
+ANT: (24,27) --> EXPLORING MAP, 
+------
+
+ANT: (39,7) --> EXPLORING MAP, 
+------
+
+ANT: (1,30) --> EXPLORING MAP, 
+------
+
+ANT: (32,19) --> EXPLORING MAP, 
+------
+
+
+=== TURN 132 ===
+ANT: (41,14) --> EXPLORING MAP, 
+------
+
+ANT: (3,23) --> EXPLORING MAP, 
+------
+
+ANT: (7,27) --> EXPLORING MAP, 
+------
+
+ANT: (4,21) --> EXPLORING MAP, 
+------
+
+ANT: (14,9) --> EXPLORING MAP, 
 ------
 
 ANT: (24,10) --> EXPLORING MAP, 
 ------
 
-ANT: (29,16) --> EXPLORING MAP, 
+
+=== TURN 133 ===
+ANT: (38,7) --> EXPLORING MAP, 
+------
+
+ANT: (2,30) --> EXPLORING MAP, 
+------
+
+ANT: (33,19) --> EXPLORING MAP, 
+------
+
+ANT: (23,27) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 120 ===
-ANT: (28,31) --> EXPLORING MAP, 
+=== TURN 133 ===
+ANT: (41,13) --> EXPLORING MAP, 
 ------
 
-ANT: (4,9) --> EXPLORING MAP, 
+ANT: (3,22) --> EXPLORING MAP, 
 ------
 
-ANT: (40,28) --> EXPLORING MAP, 
+ANT: (23,10) --> EXPLORING MAP, 
 ------
 
-ANT: (36,21) --> EXPLORING MAP, 
+ANT: (3,21) --> EXPLORING MAP, 
+------
+
+ANT: (15,9) --> EXPLORING MAP, 
+------
+
+ANT: (8,27) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 120 ===
-ANT: (25,10) --> EXPLORING MAP, 
+=== TURN 134 ===
+ANT: (38,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (26,21) --> EXPLORING MAP, 
+ANT: (2,31) --> EXPLORING MAP, 
+------
+
+ANT: (33,18) --> EXPLORING MAP, 
+------
+
+ANT: (22,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 134 ===
+ANT: (23,11) --> EXPLORING MAP, 
+------
+
+ANT: (2,21) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (15,10) --> EXPLORING MAP, 
+------
+
+ANT: (4,22) --> EXPLORING MAP, 
+------
+
+ANT: (8,28) --> EXPLORING MAP, 
+------
+
+ANT: (41,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 135 ===
+ANT: (39,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (22,26) --> EXPLORING MAP, 
+------
+
+ANT: (33,17) --> EXPLORING MAP, 
+------
+
+ANT: (3,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 135 ===
+ANT: (41,11) --> EXPLORING MAP, 
+------
+
+ANT: (15,11) --> EXPLORING MAP, 
+------
+
+ANT: (23,12) --> EXPLORING MAP, 
+------
+
+ANT: (9,28) --> EXPLORING MAP, 
+------
+
+ANT: (2,22) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (5,22) --> EXPLORING MAP, 
+------
+
+
+=== TURN 136 ===
+ANT: (32,17) --> EXPLORING MAP, 
+------
+
+ANT: (39,7) --> EXPLORING MAP, 
+------
+
+ANT: (3,30) --> EXPLORING MAP, 
+------
+
+ANT: (23,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 136 ===
+ANT: (14,11) --> EXPLORING MAP, 
+------
+
+ANT: (9,27) --> EXPLORING MAP, 
+------
+
+ANT: (22,12) --> EXPLORING MAP, 
+------
+
+ANT: (40,11) --> EXPLORING MAP, 
+------
+
+ANT: (2,23) --> EXPLORING MAP, 
+------
+
+ANT: (5,21) --> EXPLORING MAP, 
+------
+
+
+=== TURN 137 ===
+ANT: (38,7) --> EXPLORING MAP, 
+------
+
+ANT: (31,17) --> EXPLORING MAP, 
+------
+
+ANT: (23,27) --> EXPLORING MAP, 
+------
+
+ANT: (4,30) --> EXPLORING MAP, 
+------
+
+
+=== TURN 137 ===
+ANT: (14,12) --> EXPLORING MAP, 
+------
+
+ANT: (10,27) --> EXPLORING MAP, 
+------
+
+ANT: (39,11) --> EXPLORING MAP, 
+------
+
+ANT: (4,21) --> EXPLORING MAP, 
+------
+
+ANT: (2,24) --> EXPLORING MAP, 
+------
+
+ANT: (21,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 138 ===
+ANT: (4,29) --> EXPLORING MAP, 
+------
+
+ANT: (22,27) --> EXPLORING MAP, 
+------
+
+ANT: (37,7) --> EXPLORING MAP, 
+------
+
+ANT: (30,17) --> EXPLORING MAP, 
+------
+
+
+=== TURN 138 ===
+ANT: (15,12) --> EXPLORING MAP, 
+------
+
+ANT: (39,10) --> EXPLORING MAP, 
+------
+
+ANT: (3,21) --> EXPLORING MAP, 
+------
+
+ANT: (11,27) --> EXPLORING MAP, 
+------
+
+ANT: (2,25) --> EXPLORING MAP, 
+------
+
+ANT: (21,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 139 ===
+ANT: (36,7) --> EXPLORING MAP, 
+------
+
+ANT: (4,28) --> EXPLORING MAP, 
+------
+
+ANT: (22,26) --> EXPLORING MAP, 
+------
+
+ANT: (30,18) --> EXPLORING MAP, 
+------
+
+
+=== TURN 139 ===
+ANT: (2,21) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (11,28) --> EXPLORING MAP, 
+------
+
+ANT: (40,10) --> EXPLORING MAP, 
+------
+
+ANT: (15,11) --> EXPLORING MAP, 
+------
+
+ANT: (21,10) --> EXPLORING MAP, 
+------
+
+ANT: (2,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 140 ===
+ANT: (36,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (31,18) --> EXPLORING MAP, 
+------
+
+ANT: (3,28) --> EXPLORING MAP, 
+------
+
+ANT: (23,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 140 ===
+ANT: (14,11) --> EXPLORING MAP, 
+------
+
+ANT: (1,26) --> EXPLORING MAP, 
+------
+
+ANT: (2,20) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (11,29) --> EXPLORING MAP, 
+------
+
+ANT: (40,9) --> EXPLORING MAP, 
+------
+
+ANT: (22,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 141 ===
+ANT: (31,19) --> EXPLORING MAP, 
+------
+
+ANT: (35,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (23,27) --> EXPLORING MAP, 
+------
+
+ANT: (3,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 141 ===
+ANT: (2,19) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (1,25) --> EXPLORING MAP, 
+------
+
+ANT: (14,12) --> EXPLORING MAP, 
+------
+
+ANT: (22,9) --> EXPLORING MAP, 
+------
+
+ANT: (12,29) --> EXPLORING MAP, 
+------
+
+ANT: (39,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 142 ===
+ANT: (34,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (23,28) --> EXPLORING MAP, 
+------
+
+ANT: (31,20) --> EXPLORING MAP, 
+------
+
+ANT: (2,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 142 ===
+ANT: (15,12) --> EXPLORING MAP, 
+------
+
+ANT: (38,9) --> EXPLORING MAP, 
+------
+
+ANT: (2,18) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (0,25) --> EXPLORING MAP, 
+------
+
+ANT: (22,8) --> EXPLORING MAP, 
+------
+
+ANT: (13,29) --> EXPLORING MAP, 
+------
+
+
+=== TURN 143 ===
+ANT: (32,20) --> EXPLORING MAP, 
+------
+
+ANT: (33,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (22,28) --> EXPLORING MAP, 
+------
+
+ANT: (2,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 143 ===
+ANT: (15,13) --> EXPLORING MAP, 
+------
+
+ANT: (38,10) --> EXPLORING MAP, 
+------
+
+ANT: (0,24) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (13,28) --> EXPLORING MAP, 
+------
+
+ANT: (3,18) --> EXPLORING MAP, 
+------
+
+ANT: (22,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 144 ===
+ANT: (32,21) --> EXPLORING MAP, 
+------
+
+ANT: (22,27) --> EXPLORING MAP, 
+------
+
+ANT: (32,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (3,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 144 ===
+ANT: (14,28) --> EXPLORING MAP, 
+------
+
+ANT: (1,24) --> EXPLORING MAP, 
+------
+
+ANT: (37,10) --> EXPLORING MAP, 
+------
+
+ANT: (3,19) --> EXPLORING MAP, 
+------
+
+ANT: (22,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (16,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 145 ===
+ANT: (32,22) --> EXPLORING MAP, 
+------
+
+ANT: (31,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 ANT: (3,25) --> EXPLORING MAP, 
 ------
 
-ANT: (28,16) --> EXPLORING MAP, 
+ANT: (23,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 145 ===
+ANT: (36,10) --> EXPLORING MAP, 
+------
+
+ANT: (4,19) --> EXPLORING MAP, 
+------
+
+ANT: (1,23) --> EXPLORING MAP, 
+------
+
+ANT: (17,13) --> EXPLORING MAP, 
+------
+
+ANT: (23,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (14,29) --> EXPLORING MAP, 
+------
+
+
+=== TURN 146 ===
+ANT: (31,22) --> EXPLORING MAP, 
+------
+
+ANT: (4,25) --> EXPLORING MAP, 
+------
+
+ANT: (23,26) --> EXPLORING MAP, 
+------
+
+ANT: (30,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 146 ===
+ANT: (14,30) --> EXPLORING MAP, 
+------
+
+ANT: (4,18) --> EXPLORING MAP, 
+------
+
+ANT: (35,10) --> EXPLORING MAP, 
+------
+
+ANT: (2,23) --> EXPLORING MAP, 
+------
+
+ANT: (17,14) --> EXPLORING MAP, 
+------
+
+ANT: (23,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 147 ===
+ANT: (29,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (24,26) --> EXPLORING MAP, 
+------
+
+ANT: (30,22) --> EXPLORING MAP, 
+------
+
+ANT: (5,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 147 ===
+ANT: (24,7) --> EXPLORING MAP, 
+------
+
+ANT: (3,23) --> EXPLORING MAP, 
+------
+
+ANT: (15,30) --> EXPLORING MAP, 
+------
+
+ANT: (5,18) --> EXPLORING MAP, 
+------
+
+ANT: (34,10) --> EXPLORING MAP, 
+------
+
+ANT: (16,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 148 ===
+ANT: (29,22) --> EXPLORING MAP, 
+------
+
+ANT: (24,27) --> EXPLORING MAP, 
+------
+
+ANT: (28,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 148 ===
+ANT: (6,18) --> EXPLORING MAP, 
+------
+
+ANT: (34,9) --> EXPLORING MAP, 
+------
+
+ANT: (15,31) --> EXPLORING MAP, 
+------
+
+ANT: (25,7) --> EXPLORING MAP, 
+------
+
+ANT: (15,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 149 ===
+ANT: (28,22) --> EXPLORING MAP, 
+------
+
+ANT: (27,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (24,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 149 ===
+ANT: (14,31) --> EXPLORING MAP, 
+------
+
+ANT: (34,8) --> EXPLORING MAP, 
+------
+
+ANT: (7,18) --> EXPLORING MAP, 
+------
+
+ANT: (25,8) --> EXPLORING MAP, 
+------
+
+ANT: (15,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 150 ===
+ANT: (26,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (28,21) --> EXPLORING MAP, 
+------
+
+ANT: (25,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 150 ===
+ANT: (6,18) --> EXPLORING MAP, 
+------
+
+ANT: (35,8) --> EXPLORING MAP, 
+------
+
+ANT: (24,8) --> EXPLORING MAP, 
+------
+
+ANT: (14,15) --> EXPLORING MAP, 
+------
+
+ANT: (14,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 151 ===
+ANT: (25,29) --> EXPLORING MAP, 
+------
+
+ANT: (28,20) --> EXPLORING MAP, 
+------
+
+ANT: (26,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 151 ===
+ANT: (24,9) --> EXPLORING MAP, 
 ------
 
 ANT: (13,15) --> EXPLORING MAP, 
 ------
 
-ANT: (4,16) --> EXPLORING MAP, 
+ANT: (35,7) --> EXPLORING MAP, 
+------
+
+ANT: (6,17) --> EXPLORING MAP, 
+------
+
+ANT: (13,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
-=== TURN 121 ===
-ANT: (39,28) --> EXPLORING MAP, 
+=== TURN 152 ===
+ANT: (26,29) --> EXPLORING MAP, 
 ------
 
-ANT: (3,9) --> EXPLORING MAP, 
+ANT: (27,20) --> EXPLORING MAP, 
 ------
 
-ANT: (36,22) --> EXPLORING MAP, 
+
+=== TURN 152 ===
+ANT: (12,15) --> EXPLORING MAP, 
+------
+
+ANT: (6,16) --> EXPLORING MAP, 
+------
+
+ANT: (35,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (12,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 153 ===
+ANT: (26,20) --> EXPLORING MAP, 
+------
+
+ANT: (26,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 153 ===
+ANT: (11,15) --> EXPLORING MAP, 
+------
+
+ANT: (12,31) --> EXPLORING MAP, 
+------
+
+ANT: (34,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (6,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 154 ===
+ANT: (26,21) --> EXPLORING MAP, 
+------
+
+ANT: (27,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 154 ===
+ANT: (10,15) --> EXPLORING MAP, 
+------
+
+ANT: (33,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (12,30) --> EXPLORING MAP, 
+------
+
+ANT: (6,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 155 ===
+ANT: (26,22) --> EXPLORING MAP, 
+------
+
+ANT: (28,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 155 ===
+ANT: (13,30) --> EXPLORING MAP, 
+------
+
+ANT: (7,14) --> EXPLORING MAP, 
+------
+
+ANT: (10,14) --> EXPLORING MAP, 
+------
+
+ANT: (33,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 156 ===
+ANT: (28,29) --> EXPLORING MAP, 
+------
+
+ANT: (25,22) --> EXPLORING MAP, 
+------
+
+
+=== TURN 156 ===
+ANT: (34,7) --> EXPLORING MAP, 
+------
+
+ANT: (7,13) --> EXPLORING MAP, 
+------
+
+ANT: (9,14) --> EXPLORING MAP, 
+------
+
+ANT: (13,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 157 ===
+ANT: (28,30) --> EXPLORING MAP, 
+------
+
+ANT: (25,23) --> EXPLORING MAP, 
+------
+
+
+=== TURN 157 ===
+ANT: (8,14) --> EXPLORING MAP, 
+------
+
+ANT: (12,31) --> EXPLORING MAP, 
+------
+
+ANT: (34,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (8,13) --> EXPLORING MAP, 
+------
+
+
+=== TURN 158 ===
+ANT: (26,23) --> EXPLORING MAP, 
+------
+
+ANT: (28,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 158 ===
+ANT: (12,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (35,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (8,15) --> EXPLORING MAP, 
+------
+
+ANT: (8,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 159 ===
+ANT: (26,24) --> EXPLORING MAP, 
 ------
 
 ANT: (28,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
-=== TURN 121 ===
-ANT: (27,21) --> EXPLORING MAP, 
+=== TURN 159 ===
+ANT: (7,12) --> EXPLORING MAP, 
 ------
 
-ANT: (13,14) --> EXPLORING MAP, 
+ANT: (35,7) --> EXPLORING MAP, 
 ------
 
-ANT: (27,16) --> EXPLORING MAP, 
+ANT: (8,16) --> EXPLORING MAP, 
 ------
 
-ANT: (2,25) --> EXPLORING MAP, 
-------
-
-ANT: (3,16) --> EXPLORING MAP, 
-------
-
-ANT: (25,9) --> EXPLORING MAP, 
+ANT: (13,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
-=== TURN 122 ===
-ANT: (27,32) --> AT A JUNCTION, EXPLORING MAP, 
+=== TURN 160 ===
+ANT: (27,24) --> EXPLORING MAP, 
 ------
 
-ANT: (2,9) --> EXPLORING MAP, 
-------
-
-ANT: (39,27) --> EXPLORING MAP, 
-------
-
-ANT: (36,23) --> EXPLORING MAP, 
+ANT: (29,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
 
-=== TURN 122 ===
-ANT: (27,20) --> EXPLORING MAP, 
+=== TURN 160 ===
+ANT: (6,12) --> EXPLORING MAP, 
 ------
 
-ANT: (27,15) --> EXPLORING MAP, 
+ANT: (9,16) --> EXPLORING MAP, 
 ------
 
-ANT: (14,14) --> EXPLORING MAP, 
+ANT: (14,32) --> AT A JUNCTION, EXPLORING MAP, 
 ------
 
-ANT: (2,24) --> EXPLORING MAP, 
-------
-
-ANT: (25,8) --> EXPLORING MAP, 
-------
-
-ANT: (3,17) --> EXPLORING MAP, 
+ANT: (36,7) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 123 ===
-ANT: (39,26) --> EXPLORING MAP, 
+=== TURN 161 ===
+ANT: (27,25) --> EXPLORING MAP, 
 ------
 
+ANT: (29,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 161 ===
+ANT: (6,11) --> EXPLORING MAP, 
+------
+
+ANT: (15,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (36,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (9,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 162 ===
+ANT: (29,30) --> EXPLORING MAP, 
+------
+
+ANT: (27,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 162 ===
+ANT: (37,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (7,11) --> EXPLORING MAP, 
+------
+
+ANT: (9,14) --> EXPLORING MAP, 
+------
+
+ANT: (15,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 163 ===
+ANT: (29,29) --> EXPLORING MAP, 
+------
+
+ANT: (26,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 163 ===
+ANT: (37,7) --> EXPLORING MAP, 
+------
+
+ANT: (10,14) --> EXPLORING MAP, 
+------
+
+ANT: (16,31) --> EXPLORING MAP, 
+------
+
+ANT: (7,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 164 ===
+ANT: (25,26) --> EXPLORING MAP, 
+------
+
+ANT: (28,29) --> EXPLORING MAP, 
+------
+
+
+=== TURN 164 ===
+ANT: (37,8) --> EXPLORING MAP, 
+------
+
+ANT: (16,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (8,10) --> EXPLORING MAP, 
+------
+
+ANT: (11,14) --> EXPLORING MAP, 
+------
+
+
+=== TURN 165 ===
+ANT: (28,28) --> EXPLORING MAP, 
+------
+
+ANT: (24,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 165 ===
+ANT: (8,9) --> EXPLORING MAP, 
+------
+
+ANT: (11,15) --> EXPLORING MAP, 
+------
+
+ANT: (17,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (37,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 166 ===
+ANT: (27,28) --> EXPLORING MAP, 
+------
+
+ANT: (23,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 166 ===
+ANT: (11,16) --> EXPLORING MAP, 
+------
+
+ANT: (36,9) --> EXPLORING MAP, 
+------
+
+ANT: (9,9) --> EXPLORING MAP, 
+------
+
+ANT: (17,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 167 ===
+ANT: (23,27) --> EXPLORING MAP, 
+------
+
+ANT: (27,29) --> EXPLORING MAP, 
+------
+
+
+=== TURN 167 ===
+ANT: (36,8) --> EXPLORING MAP, 
+------
+
+ANT: (16,31) --> EXPLORING MAP, 
+------
+
+ANT: (10,9) --> EXPLORING MAP, 
+------
+
+ANT: (12,16) --> EXPLORING MAP, 
+------
+
+
+=== TURN 168 ===
+ANT: (22,27) --> EXPLORING MAP, 
+------
+
+ANT: (27,30) --> EXPLORING MAP, 
+------
+
+
+=== TURN 168 ===
+ANT: (35,8) --> EXPLORING MAP, 
+------
+
+ANT: (12,15) --> EXPLORING MAP, 
+------
+
+ANT: (16,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (10,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 169 ===
+ANT: (26,30) --> EXPLORING MAP, 
+------
+
+ANT: (21,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 169 ===
+ANT: (17,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (13,15) --> EXPLORING MAP, 
+------
+
+ANT: (10,11) --> EXPLORING MAP, 
+------
+
+ANT: (35,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 170 ===
+ANT: (26,31) --> EXPLORING MAP, 
+------
+
+ANT: (20,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 170 ===
+ANT: (18,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (36,9) --> EXPLORING MAP, 
+------
+
+ANT: (10,12) --> EXPLORING MAP, 
+------
+
+ANT: (13,16) --> EXPLORING MAP, 
+------
+
+
+=== TURN 171 ===
 ANT: (26,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (19,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 171 ===
+ANT: (14,16) --> EXPLORING MAP, 
+------
+
+ANT: (36,8) --> EXPLORING MAP, 
+------
+
+ANT: (18,31) --> EXPLORING MAP, 
+------
+
+ANT: (11,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 172 ===
+ANT: (19,26) --> EXPLORING MAP, 
+------
+
+ANT: (25,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 172 ===
+ANT: (12,12) --> EXPLORING MAP, 
+------
+
+ANT: (18,30) --> EXPLORING MAP, 
+------
+
+ANT: (15,16) --> EXPLORING MAP, 
+------
+
+ANT: (37,8) --> EXPLORING MAP, 
+------
+
+
+=== TURN 173 ===
+ANT: (19,25) --> EXPLORING MAP, 
+------
+
+ANT: (24,32) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 173 ===
+ANT: (37,9) --> EXPLORING MAP, 
+------
+
+ANT: (13,12) --> EXPLORING MAP, 
+------
+
+ANT: (18,29) --> EXPLORING MAP, 
+------
+
+ANT: (15,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 174 ===
+ANT: (19,24) --> EXPLORING MAP, 
+------
+
+ANT: (24,31) --> EXPLORING MAP, 
+------
+
+
+=== TURN 174 ===
+ANT: (38,9) --> EXPLORING MAP, 
+------
+
+ANT: (18,28) --> EXPLORING MAP, 
+------
+
+ANT: (15,14) --> EXPLORING MAP, 
+------
+
+ANT: (13,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 175 ===
+ANT: (19,23) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (24,30) --> EXPLORING MAP, 
+------
+
+
+=== TURN 175 ===
+ANT: (15,13) --> EXPLORING MAP, 
+------
+
+ANT: (38,8) --> EXPLORING MAP, 
+------
+
+ANT: (18,27) --> EXPLORING MAP, 
+------
+
+ANT: (12,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 176 ===
+ANT: (20,23) --> EXPLORING MAP, 
+------
+
+ANT: (24,29) --> EXPLORING MAP, 
+------
+
+
+=== TURN 176 ===
+ANT: (15,12) --> EXPLORING MAP, 
+------
+
+ANT: (18,26) --> EXPLORING MAP, 
+------
+
+ANT: (12,10) --> EXPLORING MAP, 
+------
+
+ANT: (39,8) --> EXPLORING MAP, 
+------
+
+
+=== TURN 177 ===
+ANT: (25,29) --> EXPLORING MAP, 
+------
+
+ANT: (20,22) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 177 ===
+ANT: (17,26) --> EXPLORING MAP, 
+------
+
+ANT: (16,12) --> EXPLORING MAP, 
+------
+
+ANT: (13,10) --> EXPLORING MAP, 
+------
+
+ANT: (39,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 178 ===
+ANT: (26,29) --> EXPLORING MAP, 
+------
+
+ANT: (19,22) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 178 ===
+ANT: (40,9) --> EXPLORING MAP, 
+------
+
+ANT: (16,13) --> EXPLORING MAP, 
+------
+
+ANT: (17,25) --> EXPLORING MAP, 
+------
+
+ANT: (13,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 179 ===
+ANT: (19,23) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (26,28) --> EXPLORING MAP, 
+------
+
+
+=== TURN 179 ===
+ANT: (16,25) --> EXPLORING MAP, 
+------
+
+ANT: (17,13) --> EXPLORING MAP, 
+------
+
+ANT: (13,12) --> EXPLORING MAP, 
+------
+
+ANT: (41,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 180 ===
+ANT: (20,23) --> EXPLORING MAP, 
+------
+
+ANT: (26,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 180 ===
+ANT: (41,10) --> EXPLORING MAP, 
+------
+
+ANT: (13,13) --> EXPLORING MAP, 
+------
+
+ANT: (17,12) --> EXPLORING MAP, 
+------
+
+ANT: (16,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 181 ===
+ANT: (21,23) --> EXPLORING MAP, 
+------
+
+ANT: (27,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 181 ===
+ANT: (12,13) --> EXPLORING MAP, 
+------
+
+ANT: (16,27) --> EXPLORING MAP, 
+------
+
+ANT: (18,12) --> EXPLORING MAP, 
+------
+
+ANT: (42,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 182 ===
+ANT: (22,23) --> EXPLORING MAP, 
+------
+
+ANT: (28,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 182 ===
+ANT: (12,12) --> EXPLORING MAP, 
+------
+
+ANT: (19,12) --> EXPLORING MAP, 
+------
+
+ANT: (17,27) --> EXPLORING MAP, 
+------
+
+ANT: (42,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 183 ===
+ANT: (29,27) --> EXPLORING MAP, 
+------
+
+ANT: (22,22) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 183 ===
+ANT: (0,11) --> EXPLORING MAP, 
+------
+
+ANT: (20,12) --> EXPLORING MAP, 
+------
+
+ANT: (18,27) --> EXPLORING MAP, 
+------
+
+ANT: (13,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 184 ===
+ANT: (23,22) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (29,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 184 ===
+ANT: (14,12) --> EXPLORING MAP, 
+------
+
+ANT: (0,10) --> EXPLORING MAP, 
+------
+
+ANT: (20,11) --> EXPLORING MAP, 
+------
+
+ANT: (19,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 185 ===
+ANT: (24,22) --> EXPLORING MAP, 
+------
+
+ANT: (29,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 185 ===
+ANT: (1,10) --> EXPLORING MAP, 
+------
+
+ANT: (14,11) --> EXPLORING MAP, 
+------
+
+ANT: (19,28) --> EXPLORING MAP, 
+------
+
+ANT: (20,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 186 ===
+ANT: (30,25) --> EXPLORING MAP, 
+------
+
+ANT: (24,23) --> EXPLORING MAP, 
+------
+
+
+=== TURN 186 ===
+ANT: (19,10) --> EXPLORING MAP, 
+------
+
+ANT: (14,10) --> EXPLORING MAP, 
 ------
 
 ANT: (1,9) --> EXPLORING MAP, 
 ------
 
-ANT: (35,23) --> EXPLORING MAP, 
+ANT: (20,28) --> EXPLORING MAP, 
 ------
 
 
-=== TURN 123 ===
-ANT: (1,24) --> EXPLORING MAP, 
+=== TURN 187 ===
+ANT: (24,24) --> EXPLORING MAP, 
 ------
 
-ANT: (27,19) --> EXPLORING MAP, 
+ANT: (31,25) --> EXPLORING MAP, 
 ------
 
-ANT: (14,13) --> EXPLORING MAP, 
+
+=== TURN 187 ===
+ANT: (0,9) --> EXPLORING MAP, 
 ------
 
-ANT: (25,7) --> EXPLORING MAP, 
+ANT: (21,28) --> EXPLORING MAP, 
 ------
 
-ANT: (28,15) --> EXPLORING MAP, 
+ANT: (19,9) --> EXPLORING MAP, 
 ------
 
-ANT: (2,17) --> AT A JUNCTION, EXPLORING MAP, 
+ANT: (13,10) --> EXPLORING MAP, 
+------
+
+
+=== TURN 188 ===
+ANT: (25,24) --> EXPLORING MAP, 
+------
+
+ANT: (31,24) --> EXPLORING MAP, 
+------
+
+
+=== TURN 188 ===
+ANT: (12,10) --> EXPLORING MAP, 
+------
+
+ANT: (0,8) --> EXPLORING MAP, 
+------
+
+ANT: (20,9) --> EXPLORING MAP, 
+------
+
+ANT: (21,27) --> EXPLORING MAP, 
+------
+
+
+=== TURN 189 ===
+ANT: (32,24) --> EXPLORING MAP, 
+------
+
+ANT: (25,23) --> EXPLORING MAP, 
+------
+
+
+=== TURN 189 ===
+ANT: (20,10) --> EXPLORING MAP, 
+------
+
+ANT: (20,27) --> EXPLORING MAP, 
+------
+
+ANT: (12,11) --> EXPLORING MAP, 
+------
+
+ANT: (0,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 190 ===
+ANT: (33,24) --> EXPLORING MAP, 
+------
+
+ANT: (24,23) --> EXPLORING MAP, 
+------
+
+
+=== TURN 190 ===
+ANT: (0,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (21,10) --> EXPLORING MAP, 
+------
+
+ANT: (11,11) --> EXPLORING MAP, 
+------
+
+ANT: (20,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 191 ===
+ANT: (23,23) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (33,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 191 ===
+ANT: (10,11) --> EXPLORING MAP, 
+------
+
+ANT: (19,26) --> EXPLORING MAP, 
+------
+
+ANT: (1,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (21,11) --> EXPLORING MAP, 
+------
+
+
+=== TURN 192 ===
+ANT: (23,24) --> EXPLORING MAP, 
+------
+
+ANT: (34,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 192 ===
+ANT: (22,11) --> EXPLORING MAP, 
+------
+
+ANT: (19,25) --> EXPLORING MAP, 
+------
+
+ANT: (10,12) --> EXPLORING MAP, 
+------
+
+ANT: (1,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 193 ===
+ANT: (34,24) --> EXPLORING MAP, 
+------
+
+ANT: (22,24) --> EXPLORING MAP, 
+------
+
+
+=== TURN 193 ===
+ANT: (2,7) --> EXPLORING MAP, 
+------
+
+ANT: (23,11) --> EXPLORING MAP, 
+------
+
+ANT: (18,25) --> EXPLORING MAP, 
+------
+
+ANT: (9,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 194 ===
+ANT: (22,25) --> EXPLORING MAP, 
+------
+
+ANT: (33,24) --> EXPLORING MAP, 
+------
+
+
+=== TURN 194 ===
+ANT: (2,8) --> EXPLORING MAP, 
+------
+
+ANT: (9,11) --> EXPLORING MAP, 
+------
+
+ANT: (24,11) --> EXPLORING MAP, 
+------
+
+ANT: (18,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 195 ===
+ANT: (33,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 195 ===
+ANT: (1,8) --> EXPLORING MAP, 
+------
+
+ANT: (8,11) --> EXPLORING MAP, 
+------
+
+ANT: (24,12) --> EXPLORING MAP, 
+------
+
+
+=== TURN 196 ===
+ANT: (33,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 196 ===
+ANT: (24,13) --> EXPLORING MAP, 
+------
+
+ANT: (8,10) --> EXPLORING MAP, 
+------
+
+ANT: (1,7) --> EXPLORING MAP, 
+------
+
+
+=== TURN 197 ===
+ANT: (32,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 197 ===
+ANT: (8,9) --> EXPLORING MAP, 
+------
+
+ANT: (24,14) --> EXPLORING MAP, 
+------
+
+ANT: (1,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+
+=== TURN 198 ===
+ANT: (32,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 198 ===
+ANT: (0,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (25,14) --> EXPLORING MAP, 
+------
+
+ANT: (7,9) --> EXPLORING MAP, 
+------
+
+
+=== TURN 199 ===
+ANT: (31,25) --> EXPLORING MAP, 
+------
+
+
+=== TURN 199 ===
+ANT: (6,9) --> EXPLORING MAP, 
+------
+
+ANT: (42,6) --> AT A JUNCTION, EXPLORING MAP, 
+------
+
+ANT: (25,15) --> EXPLORING MAP, 
+------
+
+
+=== TURN 200 ===
+ANT: (31,26) --> EXPLORING MAP, 
+------
+
+
+=== TURN 200 ===
+ANT: (5,9) --> EXPLORING MAP, 
+------
+
+ANT: (25,16) --> EXPLORING MAP, 
+------
+
+ANT: (41,6) --> AT A JUNCTION, EXPLORING MAP, 
 ------
