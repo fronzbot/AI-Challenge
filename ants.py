@@ -31,10 +31,6 @@ AIM = {'n': (-1, 0),
        'e': (0, 1),
        's': (1, 0),
        'w': (0, -1)}
-AIMTWICE = {'n': (-2, 0),
-            'e': (0, 2),
-            's': (2, 0),
-            'w': (0, -2)}
 RIGHT = {'n': 'e',
          'e': 's',
          's': 'w',
@@ -153,7 +149,7 @@ class Ants():
                     if owner == MY_ANT]
   
     def enemy_ants(self):
-        return [(loc, owner) for loc, owner in self.ant_list.items()
+        return [loc for loc, owner in self.ant_list.items()
                     if owner != MY_ANT]
     
     def enemy_ants_plain(self):
@@ -171,25 +167,29 @@ class Ants():
     def food(self):
         return self.food_list[:]
   
-    def passable(self, row, col):
+    def passable(self, loc):
+        row = loc[0]
+        col = loc[1]
         return self.map[row][col] != WATER
      
     def unoccupied(self, row, col):
         return self.map[row][col] in (LAND, DEAD, UNSEEN)
   
-    def destination(self, row, col, direction):
+    def destination(self, loc, direction):
+        row, col = loc
         d_row, d_col = AIM[direction]
         return ((row + d_row) % self.height, (col + d_col) % self.width)       
-  
-    def distance(self, row1, col1, row2, col2):
-        row1 = row1 % self.height
-        row2 = row2 % self.height
-        col1 = col1 % self.width
-        col2 = col2 % self.width
+    
+    def distance(self, pos_1, pos_2):
+        row1 = pos_1[0] % self.height
+        row2 = pos_2[0] % self.height
+        col1 = pos_1[1] % self.width
+        col2 = pos_2[1] % self.width
         d_col = min(abs(col1 - col2), self.width - abs(col1 - col2))
         d_row = min(abs(row1 - row2), self.height - abs(row1 - row2))
         return d_col + d_row
-  
+    
+    
     def direction(self, row1, col1, row2, col2):
         d = []
         row1 = row1 % self.height
@@ -218,28 +218,26 @@ class Ants():
                 d.append('w')
         return d
   
-    def closest_food(self,row1,col1,filter=None):
+    def closest_food(self,row1,col1):
         #find the closest food from this row/col
         min_dist=maxint
         closest_food = None
         for food in self.food_list:
-            if filter is None or food not in filter:
-                dist = self.distance(row1,col1,food[0],food[1])
-                if dist<min_dist:
-                    min_dist = dist
-                    closest_food = food
+            dist = self.distance((row1,col1),(food[0],food[1]))
+            if dist<min_dist:
+                min_dist = dist
+                closest_food = food
         return closest_food   
   
-    def closest_enemy_ant(self,row1,col1,filter=None):
+    def closest_enemy_ant(self,row1,col1):
         #find the closest enemy ant from this row/col
         min_dist=maxint
         closest_ant = None
         for ant in self.enemy_ants():
-            if filter is None or ant not in filter:
-                dist = self.distance(row1,col1,ant[0][0],ant[0][1])
-                if dist<min_dist:
-                    min_dist = dist
-                    closest_ant = ant[0]
+            dist = self.distance((row1,col1),(ant[0],ant[1]))
+            if dist<min_dist:
+                min_dist = dist
+                closest_ant = ant
         return closest_ant   
   
     def closest_enemy_hill(self,row1,col1,filter=None):
