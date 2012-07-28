@@ -12,40 +12,58 @@ class Fronzbot(object):
         pass
 
     def do_setup(self, ants):
-        self.last_locations  = []
+        self.weight_map      = {}
         self.turn_count      = 0
         self.orders          = []
         self.future_locs     = []
-        
+        self.hills           = set(ants.my_hills())
+        self.threshold       = 0
+        self.max             = 100
+        for hill in self.hills:
+            self.hills.add(ants.surrounding_area(hill[0], hill[1]))        
     
     def do_turn(self, ants):
         self.orders = []
         self.future_locs = []
         self.current_targets = []
         self.turn_count += 1
+        for loc, weight in self.weight_map.items():
+            if weight > 0:
+                self.weight_map[loc] -= 2
+                
+        if len(ants.my_ants()) % 10:
+            self.threshold += 1
+            
         for ant in ants.my_ants():
             order_issued = False
             possible_directions = self.look_around(ant, ants)
 
             if self.clear_hills(ants, ant):
-                next
+                continue
             elif self.collect_food(ants, ant):
-                next
+                continue
             elif self.hunt_enemy(ants, ant):
-                next
+                continue
             
             else:
-                for i in range(0, 6):
-                    direction = self.random_direction()
-                    next_loc = ants.destination(ant, direction)
+                locs  = []
+                north = (ants.destination(ant, 'n'), 'n')
+                south = (ants.destination(ant, 's'), 's')
+                east  = (ants.destination(ant, 'e'), 'e')
+                west  = (ants.destination(ant, 'w'), 'w')
+                for next_loc, direction in (north, south, east, west):
+                    if next_loc in self.weight_map:
+                        locs.append((next_loc, self.weight_map[next_loc], direction))
+                
+                prev_thresh    = self.threshold
+                self.threshold = self.max - 1
+                for next_loc, weight, direction in sorted(locs, key=lambda x: x[1]):
                     if self.send_order(ants, ant, direction):
+                        self.threshold = prev_thresh
                         break
+                self.threshold = prev_thresh
             
-        if self.last_locations and self.turn_count % 5 == 0:
-            self.last_locations.pop(0)
-        
 
-        
     def hunt_enemy(self, ants, ant):
         cost = []
         friend_count = 0
@@ -72,7 +90,8 @@ class Fronzbot(object):
             direction = element[1]
             next_loc  = ants.destination(ant, direction)
             if self.send_order(ants, ant, direction):
-                self.last_locations.append(ant)
+                #if ant not in self.hills:
+                #    self.last_locations[ant] = next_loc
                 return True
         return False
                 
@@ -86,6 +105,8 @@ class Fronzbot(object):
             next_loc = ants.destination(ant, direction)
             if ants.passable(next_loc):
                 cost.append((ants.distance(next_loc, food), direction, food))
+            else:
+                self.weight_map[next_loc] = 200
         if not cost:
             for direction in self.look_around(ant, ants):
                 next_loc = ants.destination(ant, direction)
@@ -96,18 +117,20 @@ class Fronzbot(object):
         for element in cost:
             direction = element[1]
             next_loc  = ants.destination(ant, direction)
+            try:
+                if self.weight_map[next_loc] >= 85:
+                    continue
+            except KeyError:
+                pass
             target    = element[2]
             if self.send_order(ants, ant, direction):
-                self.last_locations.append(ant)
+                #if ant not in self.hills:
+                #    self.last_locations[ant] = next_loc
                 return True
         return False
     
     def clear_hills(self, ants, ant):
-        for hill in ants.my_hills():
-            for loc in ants.surrounding_area(hill[0], hill[1]):
-                if loc in self.last_locations:
-                    self.last_locations.pop(self.last_locations.index(loc))
-        if ant in ants.my_hills():
+        if ant in self.hills:
             if self.send_order(ants, ant, 'n'):
                 return True
             if self.send_order(ants, ant, 'e'):
@@ -124,12 +147,12 @@ class Fronzbot(object):
             self.future_locs.append(next_loc)
             self.orders.append((cur_loc[0], cur_loc[1], direction))
             ants.issue_order((cur_loc[0], cur_loc[1], direction))
+            self.weight_map[next_loc] = self.max
             return True
         return False
     
     def can_issue_order(self, loc, command, ants):
-        return (ants.passable(loc) and loc not in self.last_locations
-                and loc not in self.future_locs and command not in self.orders
+        return (ants.passable(loc) and loc not in self.future_locs and command not in self.orders
                 and ants.unoccupied(loc[0], loc[1]) and loc not in ants.my_hills())
 
     def random_direction(self):
