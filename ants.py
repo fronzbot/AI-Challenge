@@ -57,6 +57,10 @@ class Ants():
         self.loadtime = 0
         self.turn_start_time = None
         self.current_ants = {} # ants that are currently alive
+        self.op_dir = {'n':'s',
+                       'e':'w',
+                       'w':'e',
+                       's':'n'}
         
         # cache used by neighbourhood_offsets() to determine nearby squares
         self.offsets_cache = {}
@@ -240,16 +244,15 @@ class Ants():
                 closest_ant = ant
         return closest_ant   
   
-    def closest_enemy_hill(self,row1,col1,filter=None):
+    def closest_enemy_hill(self,row1,col1):
         #find the closest enemy hill from this row/col
         min_dist=maxint
         closest_hill = None
         for hill in self.enemy_hills():
-            if filter is None or hill[0] not in filter:
-                dist = self.distance(row1,col1,hill[0][0],hill[0][1])
-                if dist<min_dist:
-                    min_dist = dist
-                    closest_hill = hill[0]
+            dist = self.distance((row1,col1),(hill[0][0],hill[0][1]))
+            if dist<min_dist:
+                min_dist = dist
+                closest_hill = hill[0]
         return closest_hill  
   
     def closest_unseen(self,row1,col1,filter=None):
@@ -309,7 +312,11 @@ class Ants():
 
     def surrounding_area(self, r, c):
         area_locs = [(r+1,c),(r+1,c+1),(r,c+1),(r-1,c+1),
-                    (r-1,c),(r-1,c-1),(r,c-1),(r+1,c-1)]
+                     (r-1,c),(r-1,c-1),(r,c-1),(r+1,c-1),
+                     (r+2,c),(r+2,c+1),(r+2,c+2),(r+2,c-1),(r+2,c-2),
+                     (r+1,c-2),(r+1,c+2),(r,c-2),(r,c+2),
+                     (r-1,c-2),(r-1,c+2),
+                     (r-2,c),(r-2,c+1),(r-2,c+2),(r-2,c-1),(r-2,c-2)]
         for i in range(len(area_locs)):
             d_row, d_col = area_locs[i]
             # If we wrap around the map, set proper row, col
@@ -327,6 +334,9 @@ class Ants():
      
     def time_remaining(self):
         return self.turntime - int(1000 * (time.clock() - self.turn_start_time))
+
+    def opposite_direction(self, direction):
+        return self.op_dir[direction]
 
     def between_water(self, row, col, distFromWater):
         index = {'n':0,'e':1,'s':2,'w':3}
