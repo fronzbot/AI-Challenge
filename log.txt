@@ -1,0 +1,384 @@
+TURN 1
+==========================
+
+ANT : 28, 19
+--------------
+Clearing Hill
+TURN 2
+==========================
+
+ANT : 27, 19
+--------------
+Moving to FoodCollecting Food
+TURN 3
+==========================
+
+ANT : 26, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 28, 19
+--------------
+Clearing Hill
+TURN 4
+==========================
+
+ANT : 25, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 27, 19
+--------------
+Moving to FoodCollecting Food
+TURN 5
+==========================
+
+ANT : 24, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 26, 19
+--------------
+Moving to FoodCollecting Food
+TURN 6
+==========================
+
+ANT : 25, 19
+--------------
+Nothing to do
+
+ANT : 23, 19
+--------------
+Nothing to do
+TURN 7
+==========================
+
+ANT : 23, 20
+--------------
+Moving to FoodCollecting Food
+
+ANT : 25, 18
+--------------
+Moving to FoodCollecting Food
+TURN 8
+==========================
+
+ANT : 24, 18
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 20
+--------------
+Nothing to do
+TURN 9
+==========================
+
+ANT : 25, 20
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 10
+==========================
+
+ANT : 23, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 20
+--------------
+Moving to FoodCollecting Food
+TURN 11
+==========================
+
+ANT : 23, 20
+--------------
+Nothing to do
+
+ANT : 24, 19
+--------------
+Nothing to do
+TURN 12
+==========================
+
+ANT : 23, 20
+--------------
+Nothing to do
+
+ANT : 25, 19
+--------------
+Moving to FoodCollecting Food
+TURN 13
+==========================
+
+ANT : 23, 20
+--------------
+Nothing to do
+
+ANT : 24, 19
+--------------
+Nothing to do
+TURN 14
+==========================
+
+ANT : 23, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 18
+--------------
+Moving to FoodCollecting Food
+TURN 15
+==========================
+
+ANT : 24, 19
+--------------
+Nothing to do
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 16
+==========================
+
+ANT : 23, 18
+--------------
+Nothing to do
+
+ANT : 24, 20
+--------------
+Moving to FoodCollecting Food
+TURN 17
+==========================
+
+ANT : 23, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 20
+--------------
+Nothing to do
+TURN 18
+==========================
+
+ANT : 23, 20
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 19
+--------------
+Nothing to do
+TURN 19
+==========================
+
+ANT : 24, 20
+--------------
+Nothing to do
+
+ANT : 24, 18
+--------------
+Moving to FoodCollecting Food
+TURN 20
+==========================
+
+ANT : 24, 21
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 21
+==========================
+
+ANT : 25, 21
+--------------
+Nothing to do
+
+ANT : 23, 19
+--------------
+Moving to FoodCollecting Food
+TURN 22
+==========================
+
+ANT : 24, 19
+--------------
+Nothing to do
+
+ANT : 25, 22
+--------------
+Moving to FoodCollecting Food
+TURN 23
+==========================
+
+ANT : 24, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 18
+--------------
+Moving to FoodCollecting Food
+TURN 24
+==========================
+
+ANT : 23, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 25
+==========================
+
+ANT : 22, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 26
+==========================
+
+ANT : 21, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 19
+--------------
+Moving to FoodCollecting Food
+TURN 27
+==========================
+
+ANT : 24, 19
+--------------
+Nothing to do
+
+ANT : 20, 22
+--------------
+Moving to FoodCollecting Food
+TURN 28
+==========================
+
+ANT : 19, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 18
+--------------
+Moving to FoodCollecting Food
+TURN 29
+==========================
+
+ANT : 18, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 30
+==========================
+
+ANT : 17, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 31
+==========================
+
+ANT : 23, 18
+--------------
+Nothing to do
+
+ANT : 16, 22
+--------------
+Moving to FoodCollecting Food
+TURN 32
+==========================
+
+ANT : 15, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 23, 18
+--------------
+Nothing to do
+TURN 33
+==========================
+
+ANT : 23, 18
+--------------
+Moving to FoodCollecting Food
+
+ANT : 14, 22
+--------------
+Moving to FoodCollecting Food
+TURN 34
+==========================
+
+ANT : 13, 22
+--------------
+Moving to FoodCollecting Food
+
+ANT : 24, 18
+--------------
+Nothing to do
+TURN 35
+==========================
+
+ANT : 24, 19
+--------------
+Moving to FoodCollecting Food
+
+ANT : 12, 22
+--------------
+Moving to FoodCollecting Food
+TURN 36
+==========================
+
+ANT : 23, 19
+--------------
+Nothing to do
+TURN 37
+==========================
+
+ANT : 23, 20
+--------------
+Moving to FoodCollecting Food
+TURN 38
+==========================
+
+ANT : 24, 20
+--------------
+Nothing to do
+TURN 39
+==========================
+
+ANT : 24, 21
+--------------
+Moving to FoodCollecting Food
+TURN 40
+==========================
+
+ANT : 25, 21
+--------------
+Nothing to do
+TURN 41
+==========================
+
+ANT : 25, 22
+--------------
+Moving to FoodCollecting Food
+TURN 42
+==========================
+
+ANT : 24, 22
+--------------
+Moving to FoodCollecting Food
